@@ -7,8 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Aaron Cholden-Brown</copyright>
-    <lastBuildDate>Sun, 28 Aug 2016 19:39:05 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 01 Sep 2016 12:00:00 +0000</lastBuildDate>
     <atom:link href="http://tohuvavohu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Aliens and Presidents Puzzle</title>
+      <link>http://tohuvavohu.github.io/post/Alien%20Puzzle/</link>
+      <pubDate>Thu, 01 Sep 2016 12:00:00 +0000</pubDate>
+      
+      <guid>http://tohuvavohu.github.io/post/Alien%20Puzzle/</guid>
+      <description>&lt;p&gt;This post is about a very tricky math puzzle, and really has very little to do with aliens or presidents. This puzzle made the rounds stumping people at Reed College in 2014, and was written by my friend Steve Silverman (who seems to have an unlimited supply of unique puzzles of his own design). All credit for cleverness and ingenuity goes to him. This post was written because there were several people who did not believe that this puzzle had a real, unique, solution or else that there was some wordplay involved rather than mathematics. The puzzle begins below:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;There are aliens living in a nearby solar system, and they love to travel. They also eat humans. On some day after 1800 they realize that one of their journeys will take them past Earth, and so they decide to &amp;lsquo;check out the menu&amp;rsquo; and determine whether it would be worthwhile to stop on Earth for lunch. Now some humans are edible, and the rest are inedible. The advance scouting party that the Aliens send to see whether a stop would be viable perform a complete, precise, and instant census. They discover that the chance that two humans selected at random would both be inedible is exactly 50%. They determine that the venture would be uneconomical, and left.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Question: On that day who was president of the United States?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;div style=&#34;display: none;&#34; id=&#34;hiddenText&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If we let m= # of edible people and n= # inedible people, then total world population is n+m. We also have:&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+{n \choose 2}/{n+m \choose 2}=\frac{1}{2}
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;From this we get:
+\begin{equation}
+n=\frac{1}{2}(2m+1+\sqrt{8m^2+1})\rightarrow 8m^2+1=p^2\rightarrow 8m^2=(p+1)(p-1)=2q*2(q-1)
+\end{equation}
+or
+\begin{equation}
+m^2=\frac{q}{2}(q-1).
+\end{equation}
+So, either
+\begin{equation}
+q=b^2,\phantom{bladida}\frac{q-1}{2}=a^2
+\end{equation}
+with
+\begin{equation}
+2a^2+1=b^2.
+\end{equation}
+Or,
+\begin{equation}
+q-1=b^2, q/2=a^2, \text{ and } 2a^2-1=b^2.
+\end{equation}
+So, $b^2=2a^2\pm 1$ (Pell&amp;rsquo;s Eq.), and $m=ab$. Conversely $b^2\rightarrow\sqrt{8m^2+1}$ is a whole number.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Difference Equation&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;Let $b_0=b_1=1,$   $b_{k+1}=2b_k+b_{k-1}$ and let $a_0=0,$ $a_1=1,$ $a_{k+1}=2a_k+a_{k-1}.$&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Lemma&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;a and b satisfy Pell&amp;rsquo;s equation if and only if $a=a_k,$ $b=b_k$ for some $k\geq 0$.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Proof&lt;/strong&gt;:
+A bunch of algebraic manipulation. The details are left as an excercise for the reader because I&amp;rsquo;m too lazy to typeset it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Thus, any solution to Eq. 1 $\rightarrow m=m_k=a_kb_k$, for $k\geq1$, and so  $n_k\approx$ $\frac{1}{2}(2m_k+1+2\sqrt{2m_k})=(1+\sqrt{2})m_k+\frac{1}{2}$ for large k.&lt;/p&gt;
+
+&lt;p&gt;The solution of the difference equation is given by $b_k=\frac{1}{2}(\beta^k+(\frac{-1}{\beta})^k)\approx\frac{\beta^k}{2},$ with $\beta=1+\sqrt{2}.$&lt;/p&gt;
+
+&lt;p&gt;Since $2a_k^2+(-1)^k=b_k^2\longrightarrow a_k\approx \frac{b_k}{\sqrt{2}}\approx \frac{\beta}{2\sqrt{2}}.$ This gives $m_k\approx\frac{\beta^{2k}}{4\sqrt{2}}$, and  $n_k\approx\frac{\beta^{2k+1}}{4\sqrt{2}}+\frac{1}{2}.$ Now $T_k=m_k+n_k\approx\frac{\beta^{2k+1}}{4\sqrt{2}}+\frac{1}{2}.$ In fact, $T_k=\frac{\beta^{2k+1}}{4\sqrt{2}}+\frac{1}{2}$ rounded to the nearest integer.&lt;/p&gt;
+
+&lt;p&gt;For example $T_{12}=927.5*10^6,$ $T_{13}=5.4*10^9,$ and $T_{14}=31.5*10^9.$ The world population since 1800 $&amp;gt; 10^9,$ and now it is $7.4*10^9.$ So, there is only one number in the generated sequence that corresponds to a valid Earth population during the time-period since 1800. Hence, the aliens showed up at $T_{13}$ in 1992 and George H. W. Bush was president.
+&lt;/div&gt;
+&lt;a href=&#34;#&#34; onclick=&#34;document.getElementById(&#39;hiddenText&#39;).style.display=&#39;block&#39;; return false;&#34;&gt;Click here to see the solution.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I love this puzzle because it needs no advanced mathematics (anything beyond elementary probability and you&amp;rsquo;re probably on the wrong track), and yet continues to stump so many people&amp;hellip;including some very good mathematicians. It also serves as a demonstration of the incredible power of mathematics to find solutions in situations that seem impossible to escape from. In this case, &amp;ldquo;How the hell&amp;hellip;?&amp;rdquo; is the normal reaction to this puzzle, and yet the solution exists and is accesible to the pioneering mind with only minimal training.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Issues with First Quantization Quantum Mechanics on Curved Space-times</title>
