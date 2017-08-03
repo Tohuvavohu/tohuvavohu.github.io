@@ -414,7 +414,7 @@ var swiftpos = {lat: latitudeStr, lng: longitudeStr};
         var marker = new google.maps.Marker({
           position: swiftpos,
           map: map,
-          icon: &#39;/home/aaron/tohuvavohu/static/img/swiftscaled.png&#39;
+          icon: &#39;http://www.tohuvavohu.com/status/swiftscaled.png&#39;
         });
 }
 var speed = Math.sqrt(Math.pow(velocityEci.x,2)+Math.pow(velocityEci.y,2)+Math.pow(velocityEci.z,2));
