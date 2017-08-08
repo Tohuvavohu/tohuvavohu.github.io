@@ -271,7 +271,7 @@ A bunch of algebraic manipulation. The details are left as an excercise for the 
 &lt;div class=&#34;container&#34;&gt;
 
 &lt;article class=&#34;article&#34; itemscope itemtype=&#34;http://schema.org/Article&#34;&gt;
-&lt;center&gt;Currently Observing&lt;sup&gt;&amp;dagger;&lt;/sup&gt;&lt;/center&gt;
+&lt;p style=&#34;text-align: center&#34;&gt;Currently Observing&lt;sup&gt;&amp;dagger;&lt;/sup&gt;&lt;/p&gt; 
 &lt;script&gt;
 function current(){  
 $.getJSON(&#39;http://allorigins.us/get?url=http%3A//www.swift.psu.edu/operations/currentTarget.php&#39;, function(data){
@@ -281,7 +281,17 @@ $.getJSON(&#39;http://allorigins.us/get?url=http%3A//www.swift.psu.edu/operation
     arr = array.join().split(/\s|,/).filter(Boolean);
 //    alert(arr.length);
     if(arr[arr.length-1]==&#39;100&#39;){
-        $(&#39;#SAA&#39;).text(&#34;The spacecraft is currently passing through the South Atlantic Anomaly. Observations will resume at &#34; + arr[arr.length-8] + &#34; UT.&#34;)
+        $(&#39;#SAA&#39;).text(&#34;The spacecraft is currently passing through the South Atlantic Anomaly. Observations will resume at &#34; + arr[arr.length-8] + &#34; UT.&#34;);
+        $(&#39;#uvotMode&#39;).empty();
+        $(&#39;#uvotMode&#39;).attr(&#34;href&#34;, &#34;http://www.swift.psu.edu/operations/mode_table.php?hexval=&#34;+arr[arr.length-2]);
+        $(&#39;#xrtMode&#39;).empty();
+        $(&#39;#xrtMode&#39;).attr(&#34;href&#34;, &#34;http://www.swift.ac.uk/analysis/xrt/modes.php&#34;);
+        $(&#39;#RA&#39;).empty();
+        $(&#39;#DEC&#39;).empty();
+        $(&#39;#duration&#39;).empty();
+        $(&#39;#end&#39;).empty();
+        $(&#39;#start&#39;).empty();
+        $(&#39;#targetName&#39;).empty();
     }
     else{
         $(&#39;#SAA&#39;).empty();
@@ -449,6 +459,13 @@ function orbitalData() {
 
     var newLatLng = new google.maps.LatLng(holder[1], holder[0]);
     marker.setPosition(newLatLng);
+
+var d = new Date(),
+      h = (d.getUTCHours()&lt;10?&#39;0&#39;:&#39;&#39;) + d.getUTCHours(),
+      m = (d.getUTCMinutes()&lt;10?&#39;0&#39;:&#39;&#39;) + d.getUTCMinutes(),
+      s = (d.getUTCSeconds()&lt;10?&#39;0&#39;:&#39;&#39;) + d.getUTCSeconds(),
+      time = h + &#39;:&#39; + m + &#39;:&#39; + s + &#39; UTC&#39;;
+    document.getElementById(&#39;now&#39;).innerHTML= time;
 }
 
 orbitalData();

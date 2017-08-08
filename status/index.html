@@ -69,7 +69,7 @@
 <div class="container">
 
 <article class="article" itemscope itemtype="http://schema.org/Article">
-<center>Currently Observing<sup>&dagger;</sup></center>
+<p style="text-align: center">Currently Observing<sup>&dagger;</sup></p> 
 <script>
 function current(){  
 $.getJSON('http://allorigins.us/get?url=http%3A//www.swift.psu.edu/operations/currentTarget.php', function(data){
@@ -79,7 +79,17 @@ $.getJSON('http://allorigins.us/get?url=http%3A//www.swift.psu.edu/operations/cu
     arr = array.join().split(/\s|,/).filter(Boolean);
 
     if(arr[arr.length-1]=='100'){
-        $('#SAA').text("The spacecraft is currently passing through the South Atlantic Anomaly. Observations will resume at " + arr[arr.length-8] + " UT.")
+        $('#SAA').text("The spacecraft is currently passing through the South Atlantic Anomaly. Observations will resume at " + arr[arr.length-8] + " UT.");
+        $('#uvotMode').empty();
+        $('#uvotMode').attr("href", "http://www.swift.psu.edu/operations/mode_table.php?hexval="+arr[arr.length-2]);
+        $('#xrtMode').empty();
+        $('#xrtMode').attr("href", "http://www.swift.ac.uk/analysis/xrt/modes.php");
+        $('#RA').empty();
+        $('#DEC').empty();
+        $('#duration').empty();
+        $('#end').empty();
+        $('#start').empty();
+        $('#targetName').empty();
     }
     else{
         $('#SAA').empty();
@@ -247,6 +257,13 @@ function orbitalData() {
 
     var newLatLng = new google.maps.LatLng(holder[1], holder[0]);
     marker.setPosition(newLatLng);
+
+var d = new Date(),
+      h = (d.getUTCHours()<10?'0':'') + d.getUTCHours(),
+      m = (d.getUTCMinutes()<10?'0':'') + d.getUTCMinutes(),
+      s = (d.getUTCSeconds()<10?'0':'') + d.getUTCSeconds(),
+      time = h + ':' + m + ':' + s + ' UTC';
+    document.getElementById('now').innerHTML= time;
 }
 
 orbitalData();
