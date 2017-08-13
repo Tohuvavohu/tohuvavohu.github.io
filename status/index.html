@@ -69,15 +69,13 @@
     .currentobs td {
         border-bottom: 1px solid #ddd;
         display: block;
-        font-size: .8em;
         text-align: right;
     }
 
     .currentobs td:before {
         content: attr(data-label);
-        float: left;
         font-weight: bold;
-        text-transform: uppercase;
+        float: left;
     }
     .currentobs td:last-child {
     border-bottom: 0;
@@ -147,7 +145,6 @@
 <div class="container">
 
 <article class="article" itemscope itemtype="http://schema.org/Article">
-<p style="text-align: center">Currently Observing<sup>&dagger;</sup></p> 
 <script>
 function current(){  
 $.getJSON('http://allorigins.us/get?url=http%3A//www.swift.psu.edu/operations/currentTarget.php', function(data){
@@ -198,6 +195,7 @@ current();
 <div class='row'>
 <div class='home_page'>
 <div class='span12'>
+<p style="text-align: center">Currently Observing<sup>&dagger;</sup></p> 
 <center><div id='SAA' style="color:#FF0000"></div></center>
 <div class='currentobs' id='currentobs'>
 <table class='currentobs'>

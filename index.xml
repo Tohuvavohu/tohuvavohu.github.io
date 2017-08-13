@@ -275,15 +275,13 @@ A bunch of algebraic manipulation. The details are left as an excercise for the 
     .currentobs td {
         border-bottom: 1px solid #ddd;
         display: block;
-        font-size: .8em;
         text-align: right;
     }
 
     .currentobs td:before {
         content: attr(data-label);
-        float: left;
         font-weight: bold;
-        text-transform: uppercase;
+        float: left;
     }
     .currentobs td:last-child {
     border-bottom: 0;
@@ -353,7 +351,6 @@ A bunch of algebraic manipulation. The details are left as an excercise for the 
 &lt;div class=&#34;container&#34;&gt;
 
 &lt;article class=&#34;article&#34; itemscope itemtype=&#34;http://schema.org/Article&#34;&gt;
-&lt;p style=&#34;text-align: center&#34;&gt;Currently Observing&lt;sup&gt;&amp;dagger;&lt;/sup&gt;&lt;/p&gt; 
 &lt;script&gt;
 function current(){  
 $.getJSON(&#39;http://allorigins.us/get?url=http%3A//www.swift.psu.edu/operations/currentTarget.php&#39;, function(data){
@@ -404,6 +401,7 @@ current();
 &lt;div class=&#39;row&#39;&gt;
 &lt;div class=&#39;home_page&#39;&gt;
 &lt;div class=&#39;span12&#39;&gt;
+&lt;p style=&#34;text-align: center&#34;&gt;Currently Observing&lt;sup&gt;&amp;dagger;&lt;/sup&gt;&lt;/p&gt; 
 &lt;center&gt;&lt;div id=&#39;SAA&#39; style=&#34;color:#FF0000&#34;&gt;&lt;/div&gt;&lt;/center&gt;
 &lt;div class=&#39;currentobs&#39; id=&#39;currentobs&#39;&gt;
 &lt;table class=&#39;currentobs&#39;&gt;
