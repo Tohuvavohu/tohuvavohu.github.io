@@ -26,6 +26,84 @@
 
     <title>Swift Gamma-Ray-Burst Explorer Status | Aaron Tohuvavohu</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+    <style>
+    
+     
+    @media 
+    only screen and (max-width: 760px),
+    (min-device-width: 768px) and (max-device-width: 1024px)  {
+    .orbittable {
+        width: 100% !important;
+        }
+    .googleMap {
+        width: 100% !important;
+    }
+    .currentobs {
+        border: 0;
+    }
+
+    .currentobs caption {
+        font-size: 1.3em;
+    }
+
+    .currentobs thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    .currentobs tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+
+    .currentobs td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+
+    .currentobs td:before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .currentobs td:last-child {
+    border-bottom: 0;
+    }
+}
+    
+     
+    @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px) {
+        body { 
+            padding: 0; 
+            margin: 0; 
+            width: 320px; }
+        }
+    
+     
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        body { 
+            width: 495px; 
+        }
+    }
+    
+    </style>
+    
+
 </head>
 <body id="top">
 
@@ -80,19 +158,13 @@ $.getJSON('http://allorigins.us/get?url=http%3A//www.swift.psu.edu/operations/cu
 
     if(arr[arr.length-1]=='100'){
         $('#SAA').text("The spacecraft is currently passing through the South Atlantic Anomaly. Observations will resume at " + arr[arr.length-8] + " UT.");
-        $('#uvotMode').empty();
-        $('#uvotMode').attr("href", "http://www.swift.psu.edu/operations/mode_table.php?hexval="+arr[arr.length-2]);
-        $('#xrtMode').empty();
-        $('#xrtMode').attr("href", "http://www.swift.ac.uk/analysis/xrt/modes.php");
-        $('#RA').empty();
-        $('#DEC').empty();
-        $('#duration').empty();
-        $('#end').empty();
-        $('#start').empty();
-        $('#targetName').empty();
+        $('#currentobs').empty();
+        $('#Schedule').text("Today's Full Schedule");
+        $('#Schedule').attr("href","https://www.swift.psu.edu/operations/obsSchedule.php?d="+arr[arr.length-11]);
     }
     else{
         $('#SAA').empty();
+        $('#currentobs').html();
         $('#uvotMode').text("0x"+arr[arr.length-2]);
         $('#uvotMode').attr("href", "http://www.swift.psu.edu/operations/mode_table.php?hexval="+arr[arr.length-2]);
         $('#xrtMode').text(arr[arr.length-3]);
@@ -102,6 +174,8 @@ $.getJSON('http://allorigins.us/get?url=http%3A//www.swift.psu.edu/operations/cu
         $('#duration').text(arr[arr.length-7]);
         $('#end').text(arr[arr.length-9]+ " " +arr[arr.length-8]);
         $('#start').text(arr[arr.length-11]+ " " +arr[arr.length-10]);
+        $('#Schedule').text("Today's Full Schedule");
+        $('#Schedule').attr("href","https://www.swift.psu.edu/operations/obsSchedule.php?d="+arr[arr.length-11]);
         
 
         var counter = arr.length-12;
@@ -124,73 +198,79 @@ current();
 <div class='row'>
 <div class='home_page'>
 <div class='span12'>
-<div class='dark_panel_border'>
-<table class='table stats_table'>
+<center><div id='SAA' style="color:#FF0000"></div></center>
+<div class='currentobs' id='currentobs'>
+<table class='currentobs'>
+    <thead>
     <tr>
-    <th>
+    <th scope="col">
     Target Name
     </th>
-    <th>
+    <th scope="col">
     Obs. Start
     </th>
-    <th>
+    <th scope="col">
     Obs. End
     </th>
-    <th>
+    <th scope="col">
     Duration (s)
     </th>
-    <th>
+    <th scope="col">
     XRT mode
     </th>
-    <th>
+    <th scope="col">
     UVOT mode
     </th>
-    <th>
+    <th scope="col">
     Right Ascension
     </th>
-    <th>
+    <th scope="col">
     Declination
     </th>
     </tr>
+    </thead>
+    <tbody>
     <tr>
-    <center><div id='SAA' style="color:#FF0000"></div></center>  
+  
 
-    <td>
+    <td data-label="Target Name">
         <div id='targetName'></div>
     </td>
-    <td>
+    <td data-label="Obs. Start">
         <div id='start'></div>
     </td>
-    <td>
+    <td data-label="Obs. End">
         <div id='end'></div>
     </td>
-    <td>
+    <td data-label="Duration (s)">
         <div id='duration'></div>
     </td>
-    <td>
+    <td data-label="XRT mode">
         <a id='xrtMode'><a></a></div>
     </td>
-    <td>
+    <td data-label="UVOT mode">
         <a id='uvotMode'><a></a></div>
     </td>
-    <td>
+    <td data-label="Right Ascension">
         <div id='RA'></div>
     </td>
-    <td>
+    <td data-label="Declination">
         <div id='DEC'></div>
     </td>
 </tr>
+</tbody>
 </table>
 
-<center><a href="https://www.swift.psu.edu/operations/obsSchedule.php?d="+2017-08-03> Today's Full Schedule</a></center>
 </div>
 </div>
+<center> <a id='Schedule'><a></a></center>
 
-<div id="googleMap" style="width:75%;height:400px;float:left;"></div>
-<table style="float: left; width:25%;">
+<div id="googleMap" class="googleMap" style="width:75%;height:400px;float:left;"></div>
+<div class="orbittable" style="float:left; width:25%;">
+<table>
         <center>Orbital Data <sup>&Dagger;</sup></center>
             <tr>
-                <th>NORAD ID:</th><td><div id="noradid">28485</div></td>
+                <th>NORAD ID:</th></thead><td><div id="noradid">28485</div></td>
             </tr>
             <tr class="bgray">
                 <th>Latitude:</th><td><div id="satlat"></div></td>
@@ -211,12 +291,13 @@ current();
                 <th>Orbital Period:</th><td><div id="period">96 min.</div></td>
             </tr>
 </table>
+</div>
 
 <script src="https://cdn.rawgit.com/shashwatak/satellite-js/master/dist/satellite.min.js"></script>
 <script>
 function satData(){
-    var tleLine1 = '1 28485U 04047A   17218.12898921 +.00000896 +00000-0 +31671-4 0  9996';
-    var tleLine2 = '2 28485 020.5561 145.5849 0011603 148.4816 211.6315 15.03776620695711';
+    var tleLine1 = '1 28485U 04047A   17224.03361013  .00000817  00000-0  26101-4 0  9995';
+    var tleLine2 = '2 28485  20.5569 104.3035 0011368 222.8844 137.0703 15.03781187696622';
 
     var satrec = satellite.twoline2satrec(tleLine1, tleLine2);
     var positionAndVelocity = satellite.propagate(satrec, new Date());

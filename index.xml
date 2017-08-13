@@ -228,6 +228,88 @@ A bunch of algebraic manipulation. The details are left as an excercise for the 
 
     &lt;title&gt;Swift Gamma-Ray-Burst Explorer Status | Aaron Tohuvavohu&lt;/title&gt;
 
+    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+
+        &lt;!--[if !IE]&gt;&lt;!--&gt;
+    &lt;style&gt;
+    
+    /* 
+    Max width before this PARTICULAR table gets nasty
+    This query will  take effect for any screen smaller than 760px
+    and also iPads specifically.
+    */
+    @media 
+    only screen and (max-width: 760px),
+    (min-device-width: 768px) and (max-device-width: 1024px)  {
+    .orbittable {
+        width: 100% !important;
+        }
+    .googleMap {
+        width: 100% !important;
+    }
+    .currentobs {
+        border: 0;
+    }
+
+    .currentobs caption {
+        font-size: 1.3em;
+    }
+
+    .currentobs thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    .currentobs tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+
+    .currentobs td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+
+    .currentobs td:before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .currentobs td:last-child {
+    border-bottom: 0;
+    }
+}
+    
+    /* Smartphones (portrait and landscape) ----------- */
+    @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px) {
+        body { 
+            padding: 0; 
+            margin: 0; 
+            width: 320px; }
+        }
+    
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        body { 
+            width: 495px; 
+        }
+    }
+    
+    &lt;/style&gt;
+    &lt;!--&lt;![endif]--&gt;
+
 &lt;/head&gt;
 &lt;body id=&#34;top&#34;&gt;
 
@@ -282,19 +364,13 @@ $.getJSON(&#39;http://allorigins.us/get?url=http%3A//www.swift.psu.edu/operation
 //    alert(arr.length);
     if(arr[arr.length-1]==&#39;100&#39;){
         $(&#39;#SAA&#39;).text(&#34;The spacecraft is currently passing through the South Atlantic Anomaly. Observations will resume at &#34; + arr[arr.length-8] + &#34; UT.&#34;);
-        $(&#39;#uvotMode&#39;).empty();
-        $(&#39;#uvotMode&#39;).attr(&#34;href&#34;, &#34;http://www.swift.psu.edu/operations/mode_table.php?hexval=&#34;+arr[arr.length-2]);
-        $(&#39;#xrtMode&#39;).empty();
-        $(&#39;#xrtMode&#39;).attr(&#34;href&#34;, &#34;http://www.swift.ac.uk/analysis/xrt/modes.php&#34;);
-        $(&#39;#RA&#39;).empty();
-        $(&#39;#DEC&#39;).empty();
-        $(&#39;#duration&#39;).empty();
-        $(&#39;#end&#39;).empty();
-        $(&#39;#start&#39;).empty();
-        $(&#39;#targetName&#39;).empty();
+        $(&#39;#currentobs&#39;).empty();
+        $(&#39;#Schedule&#39;).text(&#34;Today&#39;s Full Schedule&#34;);
+        $(&#39;#Schedule&#39;).attr(&#34;href&#34;,&#34;https://www.swift.psu.edu/operations/obsSchedule.php?d=&#34;+arr[arr.length-11]);
     }
     else{
         $(&#39;#SAA&#39;).empty();
+        $(&#39;#currentobs&#39;).html();
         $(&#39;#uvotMode&#39;).text(&#34;0x&#34;+arr[arr.length-2]);
         $(&#39;#uvotMode&#39;).attr(&#34;href&#34;, &#34;http://www.swift.psu.edu/operations/mode_table.php?hexval=&#34;+arr[arr.length-2]);
         $(&#39;#xrtMode&#39;).text(arr[arr.length-3]);
@@ -304,6 +380,8 @@ $.getJSON(&#39;http://allorigins.us/get?url=http%3A//www.swift.psu.edu/operation
         $(&#39;#duration&#39;).text(arr[arr.length-7]);
         $(&#39;#end&#39;).text(arr[arr.length-9]+ &#34; &#34; +arr[arr.length-8]);
         $(&#39;#start&#39;).text(arr[arr.length-11]+ &#34; &#34; +arr[arr.length-10]);
+        $(&#39;#Schedule&#39;).text(&#34;Today&#39;s Full Schedule&#34;);
+        $(&#39;#Schedule&#39;).attr(&#34;href&#34;,&#34;https://www.swift.psu.edu/operations/obsSchedule.php?d=&#34;+arr[arr.length-11]);
         
 // For target names with multiple spaces
         var counter = arr.length-12;
@@ -326,73 +404,79 @@ current();
 &lt;div class=&#39;row&#39;&gt;
 &lt;div class=&#39;home_page&#39;&gt;
 &lt;div class=&#39;span12&#39;&gt;
-&lt;div class=&#39;dark_panel_border&#39;&gt;
-&lt;table class=&#39;table stats_table&#39;&gt;
+&lt;center&gt;&lt;div id=&#39;SAA&#39; style=&#34;color:#FF0000&#34;&gt;&lt;/div&gt;&lt;/center&gt;
+&lt;div class=&#39;currentobs&#39; id=&#39;currentobs&#39;&gt;
+&lt;table class=&#39;currentobs&#39;&gt;
+    &lt;thead&gt;
     &lt;tr&gt;
-    &lt;th&gt;
+    &lt;th scope=&#34;col&#34;&gt;
     Target Name
     &lt;/th&gt;
-    &lt;th&gt;
+    &lt;th scope=&#34;col&#34;&gt;
     Obs. Start
     &lt;/th&gt;
-    &lt;th&gt;
+    &lt;th scope=&#34;col&#34;&gt;
     Obs. End
     &lt;/th&gt;
-    &lt;th&gt;
+    &lt;th scope=&#34;col&#34;&gt;
     Duration (s)
     &lt;/th&gt;
-    &lt;th&gt;
+    &lt;th scope=&#34;col&#34;&gt;
     XRT mode
     &lt;/th&gt;
-    &lt;th&gt;
+    &lt;th scope=&#34;col&#34;&gt;
     UVOT mode
     &lt;/th&gt;
-    &lt;th&gt;
+    &lt;th scope=&#34;col&#34;&gt;
     Right Ascension
     &lt;/th&gt;
-    &lt;th&gt;
+    &lt;th scope=&#34;col&#34;&gt;
     Declination
     &lt;/th&gt;
     &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
     &lt;tr&gt;
-    &lt;center&gt;&lt;div id=&#39;SAA&#39; style=&#34;color:#FF0000&#34;&gt;&lt;/div&gt;&lt;/center&gt;  
+  
 
-    &lt;td&gt;
+    &lt;td data-label=&#34;Target Name&#34;&gt;
         &lt;div id=&#39;targetName&#39;&gt;&lt;/div&gt;
     &lt;/td&gt;
-    &lt;td&gt;
+    &lt;td data-label=&#34;Obs. Start&#34;&gt;
         &lt;div id=&#39;start&#39;&gt;&lt;/div&gt;
     &lt;/td&gt;
-    &lt;td&gt;
+    &lt;td data-label=&#34;Obs. End&#34;&gt;
         &lt;div id=&#39;end&#39;&gt;&lt;/div&gt;
     &lt;/td&gt;
-    &lt;td&gt;
+    &lt;td data-label=&#34;Duration (s)&#34;&gt;
         &lt;div id=&#39;duration&#39;&gt;&lt;/div&gt;
     &lt;/td&gt;
-    &lt;td&gt;
+    &lt;td data-label=&#34;XRT mode&#34;&gt;
         &lt;a id=&#39;xrtMode&#39;&gt;&lt;a&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;/td&gt;
-    &lt;td&gt;
+    &lt;td data-label=&#34;UVOT mode&#34;&gt;
         &lt;a id=&#39;uvotMode&#39;&gt;&lt;a&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;/td&gt;
-    &lt;td&gt;
+    &lt;td data-label=&#34;Right Ascension&#34;&gt;
         &lt;div id=&#39;RA&#39;&gt;&lt;/div&gt;
     &lt;/td&gt;
-    &lt;td&gt;
+    &lt;td data-label=&#34;Declination&#34;&gt;
         &lt;div id=&#39;DEC&#39;&gt;&lt;/div&gt;
     &lt;/td&gt;
 &lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;center&gt;&lt;a href=&#34;https://www.swift.psu.edu/operations/obsSchedule.php?d=&#34;+2017-08-03&gt; Today&#39;s Full Schedule&lt;/a&gt;&lt;/center&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;center&gt; &lt;a id=&#39;Schedule&#39;&gt;&lt;a&gt;&lt;/a&gt;&lt;/center&gt;
 
-&lt;div id=&#34;googleMap&#34; style=&#34;width:75%;height:400px;float:left;&#34;&gt;&lt;/div&gt;
-&lt;table style=&#34;float: left; width:25%;&#34;&gt;
+&lt;div id=&#34;googleMap&#34; class=&#34;googleMap&#34; style=&#34;width:75%;height:400px;float:left;&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;orbittable&#34; style=&#34;float:left; width:25%;&#34;&gt;
+&lt;table&gt;
         &lt;center&gt;Orbital Data &lt;sup&gt;&amp;Dagger;&lt;/sup&gt;&lt;/center&gt;
             &lt;tr&gt;
-                &lt;th&gt;NORAD ID:&lt;/th&gt;&lt;td&gt;&lt;div id=&#34;noradid&#34;&gt;28485&lt;/div&gt;&lt;/td&gt;
+                &lt;th&gt;NORAD ID:&lt;/th&gt;&lt;/thead&gt;&lt;td&gt;&lt;div id=&#34;noradid&#34;&gt;28485&lt;/div&gt;&lt;/td&gt;
             &lt;/tr&gt;
             &lt;tr class=&#34;bgray&#34;&gt;
                 &lt;th&gt;Latitude:&lt;/th&gt;&lt;td&gt;&lt;div id=&#34;satlat&#34;&gt;&lt;/div&gt;&lt;/td&gt;
@@ -413,12 +497,13 @@ current();
                 &lt;th&gt;Orbital Period:&lt;/th&gt;&lt;td&gt;&lt;div id=&#34;period&#34;&gt;96 min.&lt;/div&gt;&lt;/td&gt;
             &lt;/tr&gt;
 &lt;/table&gt;
+&lt;/div&gt;
 
 &lt;script src=&#34;https://cdn.rawgit.com/shashwatak/satellite-js/master/dist/satellite.min.js&#34;&gt;&lt;/script&gt;
 &lt;script&gt;
 function satData(){
-    var tleLine1 = &#39;1 28485U 04047A   17218.12898921 +.00000896 +00000-0 +31671-4 0  9996&#39;;
-    var tleLine2 = &#39;2 28485 020.5561 145.5849 0011603 148.4816 211.6315 15.03776620695711&#39;;
+    var tleLine1 = &#39;1 28485U 04047A   17224.03361013  .00000817  00000-0  26101-4 0  9995&#39;;
+    var tleLine2 = &#39;2 28485  20.5569 104.3035 0011368 222.8844 137.0703 15.03781187696622&#39;;
 
     var satrec = satellite.twoline2satrec(tleLine1, tleLine2);
     var positionAndVelocity = satellite.propagate(satrec, new Date());
