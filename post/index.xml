@@ -7,8 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Aaron Tohuvavohu</copyright>
-    <lastBuildDate>Thu, 01 Sep 2016 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Oct 2017 12:00:00 +0000</lastBuildDate>
     <atom:link href="http://tohuvavohu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Enabling amateur astronomers to contribute to counterpart searches to gravitational wave events</title>
+      <link>http://tohuvavohu.github.io/post/counterparts-for-everyone/</link>
+      <pubDate>Sat, 21 Oct 2017 12:00:00 +0000</pubDate>
+      
+      <guid>http://tohuvavohu.github.io/post/counterparts-for-everyone/</guid>
+      <description>&lt;p&gt;On August 17, 2017 the first object ever detected with both gravitational waves and light was found, now known as &lt;a href=&#34;https://en.wikipedia.org/wiki/AT_2017gfo&#34;&gt;AT 2017gfo&lt;/a&gt;. The initial LIGO/Virgo and Fermi GBM alerts sent astronomers all over the world dashing to their telescopes to try and localize the electromagnetic counterpart in the relatively small (compared to past events) but still quite large localization region. The counterpart was independently found in the first night of searching by several different teams, though the &lt;a href=&#34;http://science.sciencemag.org/content/early/2017/10/13/science.aap9811&#34;&gt;Swope Supernova Survey&lt;/a&gt; were the first to report it. The Swift team played a crucial role in this discovery, being the first to find the &lt;a href=&#34;http://science.sciencemag.org/content/early/2017/10/13/science.aap9580&#34;&gt;UV emission&lt;/a&gt; and providing the deepest upper limits in X-ray and UV for the rest of the localization region, providing convincing evidence that there was no other counterpart candidate in the field. When AT 2017gfo was found it was at 18th magnitude in the optical band, it briefly got brighter and then faded quickly over the next 48 hours. Missing from this story is any amateur involvement in the search. This is because the alerts from LIGO/Virgo were not public during O2. With O3 set to begin in the next 10-18 months, the collaboration has stated that they will begin to make these alerts public. Objects at 18th magnitude (and brighter) are detectable by some dedicated amateurs with good instrumentation. Previously amateur astronomers have succesfully &lt;a href=&#34;https://science.nasa.gov/science-news/science-at-nasa/2000/ast14mar_2m&#34;&gt;found afterglows to GRBs&lt;/a&gt;, and participated usefully in campaigns through the &lt;a href=&#34;https://www.aavso.org/&#34;&gt;AAVSO&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The vision is for a centralized framework that provides interested amateurs with specific pointings, or even complete tiling solutions for those with robotic telescopes. These pointings will be based on the specific instrumentation that the user has access to, as well as their geographical location. The framework would be able to produce tiling plans for telescopes of any aperture and field-of-view, and coordinate the most optimized observing plan based on the distribution and number of participating users. A diverse distribution in both longitude and latitude is important to facilitate the fastest response (always night somewhere) and preclude the possibility of lattitude constrained targets. Amateurs could be especially helpful in searching some of the lower probability regions during the early time after the trigger, something professional astronomers are loathe to do. Several test runs could be performed in the period leading up to O3 with rapid response searches to identify afterglows of Fermi GBM triggers.&lt;/p&gt;
+
+&lt;p&gt;While there are a few technical obstacles, namely very heterogenous data sources and customized tiling solutions, they are by no means insurmountable. The Swift team has the experience creating the most complex and dynamic tiling solutions to find poorly localized astrophysical transients.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned, more to come.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The Aliens and Presidents Puzzle</title>
