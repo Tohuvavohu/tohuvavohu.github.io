@@ -12,28 +12,13 @@
   </url>
   
   <url>
-    <loc>http://tohuvavohu.github.io/project/swift-automation/</loc>
-    <lastmod>2017-07-31T19:39:05-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://tohuvavohu.github.io/post/Alien%20Puzzle/</loc>
     <lastmod>2016-09-01T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tohuvavohu.github.io/project/undergrad-thesis/</loc>
-    <lastmod>2016-08-28T19:39:05-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://tohuvavohu.github.io/post/tohuvavohu/</loc>
     <lastmod>2016-08-28T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://tohuvavohu.github.io/project/quantum-computing/</loc>
-    <lastmod>2016-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -43,6 +28,11 @@
   
   <url>
     <loc>http://tohuvavohu.github.io/status/</loc>
+  </url>
+  
+  <url>
+    <loc>http://tohuvavohu.github.io/home/talks/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
