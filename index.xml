@@ -489,50 +489,33 @@ current();
 &lt;/table&gt;
 &lt;/div&gt;
 
-&lt;script src=&#34;https://cdn.rawgit.com/shashwatak/satellite-js/master/dist/satellite.min.js&#34;&gt;&lt;/script&gt;
+
+&lt;script src=&#34;https://cdn.rawgit.com/lizard-isana/orb.js/2abf874d/build/min/orb.v2.min.js&#34;&gt;&lt;/script&gt;
 &lt;script&gt;
 function satData(){
-    var tleLine1 = &#39;1 28485U 04047A   17224.03361013  .00000817  00000-0  26101-4 0  9995&#39;;
-    var tleLine2 = &#39;2 28485  20.5569 104.3035 0011368 222.8844 137.0703 15.03781187696622&#39;;
+var date = new Date();
 
-    var satrec = satellite.twoline2satrec(tleLine1, tleLine2);
-    var positionAndVelocity = satellite.propagate(satrec, new Date());
+var tle = {
+  first_line:&#34;1 28485U 04047A   17318.83485433  .00001035  00000-0  41336-4 0  9990&#34;,
+  second_line:&#34;2 28485  20.5556 161.4335 0011316 342.0872  17.9163 15.03935102710917&#34;
+}
+var satellite = new Orb.SGP4(tle);
+var xyz = satellite.xyz(date); // Earth centered equatorial rectangular coordinates (x, y, z, xdot, ydot, zdot)
+var latlng = satellite.latlng(date); // geographic spherical coordinates(latitude, longitude, altitude)
 
-    var positionEci = positionAndVelocity.position;
-    var velocityEci = positionAndVelocity.velocity;
-    var gmst = satellite.gstimeFromDate(new Date());
-
-    var positionGd = satellite.eciToGeodetic(positionEci, gmst);
-    var velocityGd = satellite.eciToGeodetic(velocityEci, gmst);
-
-    var longitude = positionGd.longitude,
-        latitude  = positionGd.latitude,
-        height    = positionGd.height;
-        velocity  = velocityGd.velocity;
-
-    var longitudeStr = satellite.degreesLong(longitude),
-        latitudeStr  = satellite.degreesLat(latitude);
-
-    var speed = Math.sqrt(Math.pow(velocityEci.x,2)+Math.pow(velocityEci.y,2)+Math.pow(velocityEci.z,2));
-
-
-    return [longitudeStr, latitudeStr, height, speed];
+return latlng;
 }
 
-
-
 function orbitalData() {
-    var holder = new Array();
-    holder = satData();
 
-    document.getElementById(&#39;satlat&#39;).innerHTML = holder[1].toFixed(3);
-    document.getElementById(&#39;satlng&#39;).innerHTML = holder[0].toFixed(3);
-    document.getElementById(&#39;satalt&#39;).innerHTML = holder[2].toFixed(2);   
-    document.getElementById(&#39;satspd&#39;).innerHTML = holder[3].toFixed(2);
+    document.getElementById(&#39;satlat&#39;).innerHTML = satData().latitude.toFixed(3);
+    document.getElementById(&#39;satlng&#39;).innerHTML = satData().longitude.toFixed(3);
+    document.getElementById(&#39;satalt&#39;).innerHTML = satData().altitude.toFixed(2);   
+    document.getElementById(&#39;satspd&#39;).innerHTML = 7.58;
 
     setTimeout( orbitalData, 1000 );
 
-    var newLatLng = new google.maps.LatLng(holder[1], holder[0]);
+    var newLatLng = new google.maps.LatLng(satData().latitude, satData().longitude);
     marker.setPosition(newLatLng);
 
 var d = new Date(),
@@ -540,7 +523,6 @@ var d = new Date(),
       m = (d.getUTCMinutes()&lt;10?&#39;0&#39;:&#39;&#39;) + d.getUTCMinutes(),
       s = (d.getUTCSeconds()&lt;10?&#39;0&#39;:&#39;&#39;) + d.getUTCSeconds(),
       time = h + &#39;:&#39; + m + &#39;:&#39; + s + &#39; UTC&#39;;
-    document.getElementById(&#39;now&#39;).innerHTML= time;
 }
 
 orbitalData();
@@ -551,9 +533,8 @@ var map;
 var marker;
 
 function myMap() {
-var holder = new Array();
-holder = satData();
-var swiftpos = {lat: holder[1], lng: holder[0]};
+
+var swiftpos = {lat: satData().latitude, lng: satData().longitude};
         map = new google.maps.Map(document.getElementById(&#39;googleMap&#39;), {
           zoom: 4,
           center: swiftpos
@@ -568,9 +549,7 @@ var swiftpos = {lat: holder[1], lng: holder[0]};
 setInterval(updateMap, 1000);
 
 function updateMap(){
-    var holder = new Array();
-    holder = satData();
-   LatLng = new google.maps.LatLng(holder[1], holder[0]);
+   LatLng = new google.maps.LatLng(satData().latitude, satData().longitude);
    marker.setPosition(LatLng)
    map.setCenter(LatLng);
 
