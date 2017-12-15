@@ -7,8 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Aaron Tohuvavohu</copyright>
-    <lastBuildDate>Sat, 21 Oct 2017 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Dec 2017 12:00:00 +0000</lastBuildDate>
     <atom:link href="http://tohuvavohu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Swift acrobatics in response to GW170817</title>
+      <link>http://tohuvavohu.github.io/post/followup/</link>
+      <pubDate>Tue, 12 Dec 2017 12:00:00 +0000</pubDate>
+      
+      <guid>http://tohuvavohu.github.io/post/followup/</guid>
+      <description>&lt;p&gt;In the morning (EST) of August 17,  upon receiving the epochal &lt;a href=&#34;https://gcn.gsfc.nasa.gov/gcn3/21505.gcn3&#34;&gt;GCN&lt;/a&gt; the Swift team set into motion a follow-up program, that had been in the works for years, to search for the electromagnetic counterpart.
+This event was covered by every publication under the sun, but if you feel like reading about Swift&amp;rsquo;s contributions, you can find our paper &lt;a href=&#34;https://arxiv.org/abs/1710.05437&#34;&gt;here&lt;/a&gt;.
+Swift is unique in its flexible scheduling and commanding, and singularly rapid slewing. No other spacecraft can  perform the kind of rapid-response tiling necessary to search for electromagnetic counterparts to gravitational wave events.
+Over the course of the next few days Swift tiled 92% of the galaxy convolved gravitational-wave error region, covering 744 individual fields.
+These observations were important in the search for the counterpart, and then once a plausible counterpart candidate was discovered the tiling continued to rule out the possibility of any other related transient in the field.&lt;/p&gt;
+
+&lt;p&gt;Below you will see a video of the Swift spacecrafts observations in response to GW170817. The video shows a skymap. The large and small red circles are the sun and moon constraints on the sky, respectively.
+Everything shaded green/blue is behind the Earth from the perspective of the spacecraft. The dancing red dot shows the position of the Swift X-ray Telescope field-of-view on the sky.
+The small black dot sweeping across the sky is the position of the spacecraft itself in Earth-centered coordinates. Everytime the Sun and Moon cross the map, Swift has completed one orbit of the Earth.
+This takes approximately 96 minutes in real-time, so the video is sped-up by 3000x in the beginning. However, you will see that this rate is not constant.
+This is because it is not a true video, but a compilation of snapshots, one for each slew maneuver. When the spacecraft is performing a high number of slews, as during tiling, the video will appear to slow down.
+When the video begins Swift is engaged in normal operations, long complex and rapid slewing maneuvers across the sky (the red paths). However, after a little bit the red dot stops dancing across the sky and will appear to jiggle around in one place.
+This is the spacecraft performing the tiling. The Atitude Control System is keeping the telescopes focused on this one small region of the sky, even as the spacecraft itself swings around the earth at 17,000 mph.  Enjoy, and keep in mind that for any other spacecraft such a video would be interminably boring!&lt;/p&gt;
+
+&lt;iframe src=&#34;https://drive.google.com/file/d/0B7MdMZq6cO7mZzYtaXZLNkdDZXc/preview&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Thanks to Jeff Gropp.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Enabling amateur astronomers to contribute to counterpart searches to gravitational wave events</title>
@@ -107,44 +133,41 @@ A bunch of algebraic manipulation. The details are left as an excercise for the 
       <guid>http://tohuvavohu.github.io/post/tohuvavohu/</guid>
       <description>&lt;p&gt;The first one-and-a-half lines of Genesis go as follows:&lt;/p&gt;
 
-&lt;p&gt;&amp;hellip;בראשית ברא אלהים את השמים ואת הארץ. והארץ היתה &lt;strong&gt;תהו ובהו&lt;/strong&gt; וחשך על־פני תהום&lt;/p&gt;
+&lt;p&gt;…בראשית ברא אלהים את השמים ואת הארץ. והארץ היתה תהו ובהו וחשך על־פני תהום&lt;/p&gt;
 
-&lt;p&gt;In the Hebrew text above, the phrase &amp;lsquo;Tohu va-vohu&amp;rsquo; is in bold, the 3rd and 4th words of the second sentence (right-to-left). These lines are commonly translated as:&lt;/p&gt;
+&lt;p&gt;In the Hebrew text above, the phrase ‘Tohu va-vohu’ is in bold, the 3rd and 4th words of the second sentence (right-to-left). These lines are commonly translated as:&lt;/p&gt;
 
-&lt;p&gt;&amp;ldquo;In the beginning, God created the Heavens and the Earth. And the Earth was &lt;strong&gt;Tohu va-vohu&lt;/strong&gt; and darkness was on the face of the deep&amp;hellip;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;“In the beginning, God created the Heavens and the Earth. And the Earth was Tohu va-vohu and darkness was on the face of the deep…”&lt;/p&gt;
 
 &lt;p&gt;Despite opening this post with a quote from scripture, I am not a religious person. I am intensely skeptical of religion and am probably best characterized as fiercely agnostic. However, I was raised in a Jewish household and spent the first 12 years of my life studying religious texts. It seems like it would be a waste not to utilize some of that knowledge at least occasionally. Only two things have really stayed with me from those early years:&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;How to calculate the proper compensation if your donkey falls into a hole I dug and failed to properly cover.&lt;/li&gt;
-&lt;li&gt;The phrase &lt;strong&gt;Tohu va-vohu&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;How to calculate the proper compensation if your donkey falls into a hole I dug and failed to properly cover.
+The phrase Tohu va-vohu.
+So, why do I find these words so interesting? And why have I failed to translate them yet?&lt;/p&gt;
 
-&lt;p&gt;So, why do I find these words so interesting? And why have I failed to translate them yet?&lt;/p&gt;
-
-&lt;p&gt;The answers to these two questions are interrelated. Even without knowing what Tohu va-vohu means, we see from context that it describes the initial conditions of the Universe. As someone who studies physics, and is especially interested in cosmology, I find this compelling in itself. I am not claiming that there is any hidden mystical truth about the initial state of the Universe in these words, only that the concept of an intial state as opposed to &lt;em&gt;creatio ex nihilo&lt;/em&gt; is intriguing in the religious context where we are so often told to accept a divine &lt;em&gt;creator&lt;/em&gt;, as opposed to an &lt;em&gt;orderer&lt;/em&gt;. Indeed, this debate goes back at least as far as &lt;a href=&#34;https://en.wikipedia.org/wiki/Rabbi_Akiva&#34;&gt;Rabbi Akiva&lt;/a&gt; who has a classic argument in the &lt;a href=&#34;https://en.wikipedia.org/wiki/Genesis_Rabbah&#34;&gt;B&amp;rsquo;reshit Rabbah&lt;/a&gt; refuting the gnostic view that God needed the use of, or assistance from, some primordial materials (the Tohu and the Bohu) in order to build the Universe. So, it is clear that the &lt;em&gt;meaning&lt;/em&gt; of these words is critical to these arguments. If Tohu and Bohu are qualities that imply some form or substance, this would give ample weight to the Gnostic viewpoint.&lt;/p&gt;
+&lt;p&gt;The answers to these two questions are interrelated. Even without knowing what Tohu va-vohu means, we see from context that it describes the initial conditions of the Universe. As someone who studies physics, and is especially interested in cosmology, I find this compelling in itself. I am not claiming that there is any hidden mystical truth about the initial state of the Universe in these words, only that the concept of an intial state as opposed to creatio ex nihilo is intriguing in the religious context where we are so often told to accept a divine creator, as opposed to an orderer. Indeed, this debate goes back at least as far as &lt;a href=&#34;https://en.wikipedia.org/wiki/Rabbi_Akiva&#34;&gt;Rabbi Akiva&lt;/a&gt; who has a classic argument in the &lt;a href=&#34;https://en.wikipedia.org/wiki/Genesis_Rabbah&#34;&gt;B’reshit Rabbah&lt;/a&gt; refuting the gnostic view that God needed the use of, or assistance from, some primordial materials (the Tohu and the Bohu) in order to build the Universe. So, it is clear that the meaning of these words is critical to these arguments. If Tohu and Bohu are qualities that imply some form or substance, this would give ample weight to the Gnostic viewpoint.&lt;/p&gt;
 
 &lt;p&gt;So, on to the task of translation. This turns out to be rather difficult. The phrase Tohu va-vohu appears only three times total in the entire canon: the instance we have been discussing (Genesis 1:2), Jeremiah 4:23, and Isaiah 34:11. So, we have a very small sample set to work with in attempting translation. Moreover, the issue is compounded because the occasions where Tohu va-vohu appear in Jeremiah and Isaiah actually seem to be directly referencing the use of the words in Genesis 1:2. In Jeremiah 4:23:&lt;/p&gt;
 
-&lt;p&gt;.ראיתי את־הארץ והנה־&lt;strong&gt;תהו ובהו&lt;/strong&gt; ואל־השמים ואין אורם&lt;/p&gt;
+&lt;p&gt;.ראיתי את־הארץ והנה־תהו ובהו ואל־השמים ואין אורם&lt;/p&gt;
 
-&lt;p&gt;&amp;ldquo;And I looked at the Earth and saw it was &lt;strong&gt;Tohu va-vohu&lt;/strong&gt;, and at the Heavens and they were without light.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;“And I looked at the Earth and saw it was Tohu va-vohu, and at the Heavens and they were without light.”&lt;/p&gt;
 
 &lt;p&gt;In context, this is part of a longer passage where Jeremiah is describing an undoing of creation. An explicit reversal of the acts carried out in the first few lines of Genesis. So this can not be treated as a separate source from which to derive some meaning for the phrase. In Isaiah 34:11:&lt;/p&gt;
 
-&lt;p&gt;.וירשוה קאת וקפוד וינשוף וערב ישכנו־בה ונטה עליה קו־&lt;strong&gt;תהו&lt;/strong&gt; ואבני־&lt;strong&gt;בהו&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;.וירשוה קאת וקפוד וינשוף וערב ישכנו־בה ונטה עליה קו־תהו ואבני־בהו&lt;/p&gt;
 
-&lt;p&gt;&amp;ldquo;But the cormorant and the bittern will possess it, and the owl and the raven will dwell in it, and he shall stretch out on it the line of &lt;strong&gt;Tohu&lt;/strong&gt; and the stones of &lt;strong&gt;Bohu&lt;/strong&gt;.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;“But the cormorant and the bittern will possess it, and the owl and the raven will dwell in it, and he shall stretch out on it the line of Tohu and the stones of Bohu.”&lt;/p&gt;
 
-&lt;p&gt;This passage is also part of a description of desolation and destruction. This time a prediction of what is to befall Babylon, as if Babylon will be &lt;em&gt;unmade&lt;/em&gt;. Even here, with a connection to other words which we can translate easily (&amp;lsquo;line&amp;rsquo; and &amp;lsquo;stones&amp;rsquo;), it is very unclear what information we can glean from this passage. If anything, the connection of Tohu and Bohu to material things gives some weight to the Gnostic argument.&lt;/p&gt;
+&lt;p&gt;This passage is also part of a description of desolation and destruction. This time a prediction of what is to befall Babylon, as if Babylon will be unmade. Even here, with a connection to other words which we can translate easily (‘line’ and ‘stones’), it is very unclear what information we can glean from this passage. If anything, the connection of Tohu and Bohu to material things gives some weight to the Gnostic argument.&lt;/p&gt;
 
-&lt;p&gt;The reader familiar with Genesis will know that the overwhelmingly predominant translation of Tohu va-vohu is &amp;ldquo;without form and void,&amp;rdquo; or something of similar meaning. This translation, which treats Tohu va-vohu as a &lt;a href=&#34;https://en.wikipedia.org/wiki/Hendiadys&#34;&gt;hendiadys&lt;/a&gt;, supports the canonical view of &lt;em&gt;creatio ex nihilo&lt;/em&gt;. Even the &lt;a href=&#34;https://en.wikipedia.org/wiki/Septuagint&#34;&gt;Septuagint&lt;/a&gt;, our earliest translation out of the biblical Hebrew, translates Tohu va-vohu as &amp;ldquo;ἀόρατος καὶ ἀκατα-σκεύαστος&amp;rdquo;  which means &amp;ldquo;invisible and unformed&amp;rdquo;. It is important to note that this translation was prepared by 70 scholars who, while much more learned than myself, were also very much part of the majority camp which believed in a &lt;em&gt;creatio ex nihilo&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The reader familiar with Genesis will know that the overwhelmingly predominant translation of Tohu va-vohu is “without form and void,” or something of similar meaning. This translation, which treats Tohu va-vohu as a &lt;a href=&#34;https://en.wikipedia.org/wiki/Hendiadys&#34;&gt;hendiadys&lt;/a&gt;, supports the canonical view of creatio ex nihilo. Even the &lt;a href=&#34;https://en.wikipedia.org/wiki/Septuagint&#34;&gt;Septuagint&lt;/a&gt;, our earliest translation out of the biblical Hebrew, translates Tohu va-vohu as “ἀόρατος καὶ ἀκατα-σκεύαστος” which means “invisible and unformed”. It is important to note that this translation was prepared by 70 scholars who, while much more learned than myself, were also very much part of the majority camp which believed in a creatio ex nihilo.&lt;/p&gt;
 
-&lt;p&gt;Regardless, as we have seen there is really not much support for any translation at all. The leading interpretation seems to be based on oral tradition, what Jews would call &lt;em&gt;Torah she b&amp;rsquo;al peh&lt;/em&gt; (תורה שבעל פה). My personal understanding of Tohu va-vohu is as something akin to chaos (which is not an entirely improper translation from the Greek in the Septuagint). I like to think of the creation myth as Order emerging from the Chaos, as this ties together nicely with my interest in emergence and &lt;a href=&#34;https://en.wikipedia.org/wiki/Symmetry_breaking&#34;&gt;symmetry breaking&lt;/a&gt;. The fact that Tohu va-vohu is untranslateable and thus the initial state of the Universe is, in a sense, unknowable from religious sources informed my early interest in science. I was very skeptical even as a young child, and I remember studying these words at the age of 6, seeing that there was debate over their interpretation, and falling down the rabbit hole of ancient rabbinical debates until I realized that the ony way out was through science.&lt;/p&gt;
+&lt;p&gt;Regardless, as we have seen there is really not much support for any translation at all. The leading interpretation seems to be based on oral tradition, what Jews would call Torah she b’al peh (תורה שבעל פה). My personal understanding of Tohu va-vohu is as something akin to chaos (which is not an entirely improper translation from the Greek in the Septuagint). I like to think of the creation myth as Order emerging from the Chaos, as this ties together nicely with my interest in emergence and &lt;a href=&#34;https://en.wikipedia.org/wiki/Symmetry_breaking&#34;&gt;symmetry breaking&lt;/a&gt;. The fact that Tohu va-vohu is untranslateable and thus the initial state of the Universe is, in a sense, unknowable from religious sources informed my early interest in science. I was very skeptical even as a young child, and I remember studying these words at the age of 6, seeing that there was debate over their interpretation, and falling down the rabbit hole of ancient rabbinical debates until I realized that the ony way out was through science.&lt;/p&gt;
 
-&lt;p&gt;So, when I use the words Tohu va-vohu I am referring to the initial state of the universe, before the &amp;lsquo;Beginning&amp;rsquo;, and I am affirming the unique ability of science to bring us this type of knowledge.&lt;/p&gt;
+&lt;p&gt;So, when I use the words Tohu va-vohu I am referring to the initial state of the universe, before the ‘Beginning’, and I am affirming the unique ability of science to bring us this type of knowledge.&lt;/p&gt;
 
-&lt;p&gt;As a final note: you may find the Wikipedia page for this phrase at &lt;a href=&#34;https://en.wikipedia.org/wiki/Tohu_wa-bohu&#34;&gt;Tohu wa-Bohu&lt;/a&gt;. It is my firm belief that this transliteration of wa-bohu vs. va-vohu is incorrect and does not reflect the proper pronunciation of the words. To hear me saying these words, you can click &lt;a href=&#34;http://tohuvavohu.github.io/tohuvavohu.mp3&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As a final note: you may find the Wikipedia page for this phrase at &lt;a href=&#34;https://en.wikipedia.org/wiki/Tohu_wa-bohu&#34;&gt;Tohu wa-Bohu&lt;/a&gt;. It is my firm belief that this transliteration of wa-bohu vs. va-vohu is incorrect and does not reflect the proper pronunciation of the words. To hear me saying these words, you can click &lt;a href=&#34;http://www.tohuvavohu.com/tohuvavohu.mp3&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
