@@ -7,8 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Aaron Tohuvavohu</copyright>
-    <lastBuildDate>Tue, 12 Dec 2017 12:00:00 +0000</lastBuildDate>
-    <atom:link href="http://tohuvavohu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tohuvavohu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Selected Talks</title>
+      <link>http://tohuvavohu.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tohuvavohu.github.io/home/talks/</guid>
+      <description>November 7: I will be giving a lunch talk to the Astro department at Penn State on Swift&#39;s hunt for EM counterparts to gravitational-wave events.
+November 5: I will be giving a talk titled Searching for the radiative decay of sterile neutrino dark matter with Swift XRT at the Mid-Atlantic APS in Newark, New Jersey.
+October 30: I will be giving a lay-talk to a public audience at Astronomy on Tap: State College titled &#39;Hearing and Seeing the Universe: Hunting for EM counterparts to gravitational-waves with Swift.</description>
+    </item>
     
     <item>
       <title>Swift acrobatics in response to GW170817</title>
@@ -16,20 +29,8 @@
       <pubDate>Tue, 12 Dec 2017 12:00:00 +0000</pubDate>
       
       <guid>http://tohuvavohu.github.io/post/followup/</guid>
-      <description>&lt;p&gt;Below you will see a visualisation of the maneuvers that the Swift spacecraft performed in the course of its &lt;a href=&#34;https://arxiv.org/abs/1710.05437&#34;&gt;tiling observations&lt;/a&gt; in response to &lt;a href=&#34;http://www.wikipedia.org/wiki/GW170817&#34;&gt;GW170817&lt;/a&gt;. This campaign was comprised of 744 individual pointings that covered 92% of the galaxy-convolved gravitational wave error region. Swift is the only spacecraft that can perform this type of fast-response tiling, and will remain so for the foreseeable future.&lt;/p&gt;
-
-&lt;p&gt;The video shows a skymap. The large and small red circles are the sun and moon constraints on the sky, respectively.
-Everything shaded green/blue is behind the Earth from the perspective of the spacecraft. The dancing red dot shows the position of the Swift X-ray Telescope field-of-view on the sky.
-The small black dot sweeping across the sky is the position of the spacecraft itself in Earth-centered coordinates. Everytime the Sun and Moon cross the map, Swift has completed one orbit of the Earth.
-This takes approximately 96 minutes in real-time, so the video is sped-up by 3000x in the beginning. However, you will see that this rate is not constant.
-This &amp;lsquo;video&amp;rsquo; is actually a  compilation of snapshots, one for each slew maneuver. When the spacecraft is performing a large number of successive slews, as during tiling, the video will appear to slow down.
-When the video begins Swift is engaged in normal operations, long complex and rapid slewing maneuvers across the sky (the red paths). However, after a little bit the red dot stops dancing across the sky and will appear to jiggle around in one place.
-This is the spacecraft performing the tiling. The Atitude Control System is keeping the telescopes focused on this one small region of the sky, even as the spacecraft itself swings around the earth at 17,000 mph.  Enjoy, and keep in mind that for any other spacecraft such a video would be interminably boring!&lt;/p&gt;
-
-&lt;iframe src=&#34;https://drive.google.com/file/d/0B7MdMZq6cO7mZzYtaXZLNkdDZXc/preview&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Thanks to Jeff Gropp.&lt;/p&gt;
-</description>
+      <description>Below you will see a visualisation of the maneuvers that the Swift spacecraft performed in the course of its tiling observations in response to GW170817. This campaign was comprised of 744 individual pointings that covered 92% of the galaxy-convolved gravitational wave error region. Swift is the only spacecraft that can perform this type of fast-response tiling, and will remain so for the foreseeable future.
+The video shows a skymap. The large and small red circles are the sun and moon constraints on the sky, respectively.</description>
     </item>
     
     <item>
@@ -38,87 +39,16 @@ This is the spacecraft performing the tiling. The Atitude Control System is keep
       <pubDate>Sat, 21 Oct 2017 12:00:00 +0000</pubDate>
       
       <guid>http://tohuvavohu.github.io/post/counterparts-for-everyone/</guid>
-      <description>&lt;p&gt;On August 17, 2017 the first object ever detected with both gravitational waves and light was found, now known as &lt;a href=&#34;https://en.wikipedia.org/wiki/AT_2017gfo&#34;&gt;AT 2017gfo&lt;/a&gt;. The initial LIGO/Virgo and Fermi GBM alerts sent astronomers all over the world dashing to their telescopes to try and localize the electromagnetic counterpart in the relatively small (compared to past events) but still quite large localization region. The counterpart was independently found in the first night of searching by several different teams, though the &lt;a href=&#34;http://science.sciencemag.org/content/early/2017/10/13/science.aap9811&#34;&gt;Swope Supernova Survey&lt;/a&gt; were the first to report it. The Swift team played a crucial role in this discovery, being the first to find the &lt;a href=&#34;http://science.sciencemag.org/content/early/2017/10/13/science.aap9580&#34;&gt;UV emission&lt;/a&gt; and providing the deepest upper limits in X-ray and UV for the rest of the localization region, providing convincing evidence that there was no other counterpart candidate in the field. When AT 2017gfo was found it was at 18th magnitude in the optical band, it briefly got brighter and then faded quickly over the next 48 hours. Missing from this story is any amateur involvement in the search. This is because the alerts from LIGO/Virgo were not public during O2. With O3 set to begin in the next 10-18 months, the collaboration has stated that they will begin to make these alerts public. Objects at 18th magnitude (and brighter) are detectable by some dedicated amateurs with good instrumentation. Previously amateur astronomers have succesfully &lt;a href=&#34;https://science.nasa.gov/science-news/science-at-nasa/2000/ast14mar_2m&#34;&gt;found afterglows to GRBs&lt;/a&gt;, and participated usefully in campaigns through the &lt;a href=&#34;https://www.aavso.org/&#34;&gt;AAVSO&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The vision is for a centralized framework that provides interested amateurs with specific pointings, or even complete tiling solutions for those with robotic telescopes. These pointings will be based on the specific instrumentation that the user has access to, as well as their geographical location. The framework would be able to produce tiling plans for telescopes of any aperture and field-of-view, and coordinate the most optimized observing plan based on the distribution and number of participating users. A diverse distribution in both longitude and latitude is important to facilitate the fastest response (always night somewhere) and preclude the possibility of lattitude constrained targets. Amateurs could be especially helpful in searching some of the lower probability regions during the early time after the trigger, something professional astronomers are loathe to do. Several test runs could be performed in the period leading up to O3 with rapid response searches to identify afterglows of Fermi GBM triggers.&lt;/p&gt;
-
-&lt;p&gt;While there are a few technical obstacles, namely very heterogenous data sources and customized tiling solutions, they are by no means insurmountable. The Swift team has the experience creating the most complex and dynamic tiling solutions to find poorly localized astrophysical transients.&lt;/p&gt;
-
-&lt;p&gt;Stay tuned, more to come.&lt;/p&gt;
-</description>
+      <description>On August 17, 2017 the first object ever detected with both gravitational waves and light was found, now known as AT 2017gfo. The initial LIGO/Virgo and Fermi GBM alerts sent astronomers all over the world dashing to their telescopes to try and localize the electromagnetic counterpart in the relatively small (compared to past events) but still quite large localization region. The counterpart was independently found in the first night of searching by several different teams, though the Swope Supernova Survey were the first to report it.</description>
     </item>
     
     <item>
       <title>The Aliens and Presidents Puzzle</title>
-      <link>http://tohuvavohu.github.io/post/Alien%20Puzzle/</link>
+      <link>http://tohuvavohu.github.io/post/alien-puzzle/</link>
       <pubDate>Thu, 01 Sep 2016 12:00:00 +0000</pubDate>
       
-      <guid>http://tohuvavohu.github.io/post/Alien%20Puzzle/</guid>
-      <description>&lt;p&gt;This post is about a very tricky math puzzle, and really has very little to do with aliens or presidents. This puzzle made the rounds stumping people at Reed College in 2014, and was created by my friend Steve Silverman (who seems to have an unlimited supply of unique puzzles of his own design). All credit for cleverness and ingenuity goes to him. This post was written because there were several people who did not believe that this puzzle had a real, unique, solution or else that there was some wordplay involved rather than mathematics. The puzzle begins below:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;There are aliens living in a nearby solar system, and they love to travel. They also eat humans. On some day after 1800 they realize that one of their journeys will take them past Earth, and so they decide to &amp;lsquo;check out the menu&amp;rsquo; and determine whether it would be worthwhile to stop on Earth for lunch. Now some humans are edible, and the rest are inedible. The advance scouting party that the Aliens send to see whether a stop would be viable perform a complete, precise, and instant census. They discover that the chance that two humans selected at random would both be inedible is exactly 50%. They determine that the venture would be uneconomical, and left.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Question: On that day who was president of the United States?&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;div style=&#34;display: none;&#34; id=&#34;hiddenText&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;If we let m= # of edible people and n= # inedible people, then total world population is n+m. We also have:&lt;/p&gt;
-
-&lt;p&gt;\begin{equation}
-{n \choose 2}/{n+m \choose 2}=\frac{1}{2}
-\end{equation}&lt;/p&gt;
-
-&lt;p&gt;From this we get:
-\begin{equation}
-n=\frac{1}{2}(2m+1+\sqrt{8m^2+1})\rightarrow 8m^2+1=p^2\rightarrow 8m^2=(p+1)(p-1)=2q*2(q-1)
-\end{equation}
-or
-\begin{equation}
-m^2=\frac{q}{2}(q-1).
-\end{equation}
-So, either
-\begin{equation}
-q=b^2,\phantom{bladida}\frac{q-1}{2}=a^2
-\end{equation}
-with
-\begin{equation}
-2a^2+1=b^2.
-\end{equation}
-Or,
-\begin{equation}
-q-1=b^2, q/2=a^2, \text{ and } 2a^2-1=b^2.
-\end{equation}
-So, $b^2=2a^2\pm 1$ (Pell&amp;rsquo;s Eq.), and $m=ab$. Conversely $b^2\rightarrow\sqrt{8m^2+1}$ is a whole number.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Difference Equation&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;Let $b_0=b_1=1,$   $b_{k+1}=2b_k+b_{k-1}$ and let $a_0=0,$ $a_1=1,$ $a_{k+1}=2a_k+a_{k-1}.$&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Lemma&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;a and b satisfy Pell&amp;rsquo;s equation if and only if $a=a_k,$ $b=b_k$ for some $k\geq 0$.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Proof&lt;/strong&gt;:
-A bunch of algebraic manipulation. The details are left as an excercise for the reader because I&amp;rsquo;m too lazy to typeset it.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Thus, any solution to Eq. 1 $\rightarrow m=m_k=a_kb_k$, for $k\geq1$, and so  $n_k\approx$ $\frac{1}{2}(2m_k+1+2\sqrt{2m_k})=(1+\sqrt{2})m_k+\frac{1}{2}$ for large k.&lt;/p&gt;
-
-&lt;p&gt;The solution of the difference equation is given by $b_k=\frac{1}{2}(\beta^k+(\frac{-1}{\beta})^k)\approx\frac{\beta^k}{2},$ with $\beta=1+\sqrt{2}.$&lt;/p&gt;
-
-&lt;p&gt;Since $2a_k^2+(-1)^k=b_k^2\longrightarrow a_k\approx \frac{b_k}{\sqrt{2}}\approx \frac{\beta}{2\sqrt{2}}.$ This gives $m_k\approx\frac{\beta^{2k}}{4\sqrt{2}}$, and  $n_k\approx\frac{\beta^{2k+1}}{4\sqrt{2}}+\frac{1}{2}.$ Now $T_k=m_k+n_k\approx\frac{\beta^{2k+1}}{4\sqrt{2}}+\frac{1}{2}.$ In fact, $T_k=\frac{\beta^{2k+1}}{4\sqrt{2}}+\frac{1}{2}$ rounded to the nearest integer.&lt;/p&gt;
-
-&lt;p&gt;To be clear, the $T_k$ we have just produced is the generating sequence for numbers with the property $n+m=T_k$ and the exact probability condition for choosing two inedibles. That is, there are only some numbers (populations of the Earth) with these properties. For example, $T_{12}=927.5*10^6,$ $T_{13}=5.4*10^9,$ and $T_{14}=31.5*10^9.$ The world population since 1800 $&amp;gt; 10^9,$ and now it is $7.4*10^9.$ So, there is only one number in the generated sequence that corresponds to a valid Earth population during the period since 1800. Hence, the aliens showed up at $T_{13}$ in 1992 and &lt;strong&gt;George H. W. Bush&lt;/strong&gt; was president.
-&lt;/div&gt;
-&lt;a href=&#34;#&#34; onclick=&#34;document.getElementById(&#39;hiddenText&#39;).style.display=&#39;block&#39;; return false;&#34;&gt;Click here to see the solution.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I love this puzzle because it needs no advanced mathematics (anything beyond elementary probability and you&amp;rsquo;re probably on the wrong track), and yet continues to stump so many people&amp;hellip;including some very skilled mathematicians. It also serves as a demonstration of the incredible power of mathematics to find solutions in situations that seem impossible; in this case by exploiting structure in the problem that carries more import than intuition would predict. &amp;ldquo;How the hell&amp;hellip;?&amp;rdquo; is the normal reaction to this puzzle, and yet the solution exists and is accesible to the pioneering mind with only minimal training.&lt;/p&gt;
-</description>
+      <guid>http://tohuvavohu.github.io/post/alien-puzzle/</guid>
+      <description>This post is about a very tricky math puzzle, and really has very little to do with aliens or presidents. This puzzle made the rounds stumping people at Reed College in 2014, and was created by my friend Steve Silverman (who seems to have an unlimited supply of unique puzzles of his own design). All credit for cleverness and ingenuity goes to him. This post was written because there were several people who did not believe that this puzzle had a real, unique, solution or else that there was some wordplay involved rather than mathematics.</description>
     </item>
     
     <item>
@@ -127,47 +57,10 @@ A bunch of algebraic manipulation. The details are left as an excercise for the 
       <pubDate>Sun, 28 Aug 2016 12:00:00 +0000</pubDate>
       
       <guid>http://tohuvavohu.github.io/post/tohuvavohu/</guid>
-      <description>&lt;p&gt;The first one-and-a-half lines of Genesis go as follows:&lt;/p&gt;
-
-&lt;p&gt;…בראשית ברא אלהים את השמים ואת הארץ. והארץ היתה &lt;strong&gt;תהו ובהו&lt;/strong&gt; וחשך על־פני תהום&lt;/p&gt;
-
-&lt;p&gt;In the Hebrew text above, the phrase ‘Tohu va-vohu’ is in bold, the 3rd and 4th words of the second sentence (right-to-left). These lines are commonly translated as:&lt;/p&gt;
-
-&lt;p&gt;“In the beginning, God created the Heavens and the Earth. And the Earth was &lt;strong&gt;Tohu va-vohu&lt;/strong&gt; and darkness was on the face of the deep…”&lt;/p&gt;
-
-&lt;p&gt;Despite opening this post with a quote from scripture, I am not a religious person. I am intensely skeptical of religion and am probably best characterized as fiercely agnostic. However, I was raised in a Jewish household and spent the first 12 years of my life studying religious texts. It seems like it would be a waste not to utilize some of that knowledge at least occasionally. Only two things have really stayed with me from those early years:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;How to calculate the proper compensation if your donkey falls into a hole I dug and failed to properly cover.&lt;/li&gt;
-&lt;li&gt;The phrase Tohu va-vohu.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;So, why do I find these words so interesting? And why have I failed to translate them yet?&lt;/p&gt;
-
-&lt;p&gt;The answers to these two questions are interrelated. Even without knowing what Tohu va-vohu means, we see from context that it describes the initial conditions of the Universe. As someone who studies physics, and is especially interested in cosmology, I find this compelling in itself. I am not claiming that there is any hidden mystical truth about the initial state of the Universe in these words, only that the concept of an intial state as opposed to &lt;em&gt;creatio ex nihilo&lt;/em&gt; is intriguing in the religious context where we are so often told to accept a divine creator, as opposed to an orderer. Indeed, this debate goes back at least as far as &lt;a href=&#34;https://en.wikipedia.org/wiki/Rabbi_Akiva&#34;&gt;Rabbi Akiva&lt;/a&gt; who has a classic argument in the &lt;a href=&#34;https://en.wikipedia.org/wiki/Genesis_Rabbah&#34;&gt;B’reshit Rabbah&lt;/a&gt; refuting the gnostic view that God needed the use of, or assistance from, some primordial materials (the Tohu and the Bohu) in order to build the Universe. So, it is clear that the meaning of these words is critical to these arguments. If Tohu and Bohu are qualities that imply some form or substance, this would give ample weight to the Gnostic viewpoint.&lt;/p&gt;
-
-&lt;p&gt;So, on to the task of translation. This turns out to be rather difficult. The phrase Tohu va-vohu appears only three times total in the entire canon: the instance we have been discussing (Genesis 1:2), Jeremiah 4:23, and Isaiah 34:11. So, we have a very small sample set to work with in attempting translation. Moreover, the issue is compounded because the occasions where Tohu va-vohu appear in Jeremiah and Isaiah actually seem to be directly referencing the use of the words in Genesis 1:2. In Jeremiah 4:23:&lt;/p&gt;
-
-&lt;p&gt;.ראיתי את־הארץ והנה־תהו ובהו ואל־השמים ואין אורם&lt;/p&gt;
-
-&lt;p&gt;“And I looked at the Earth and saw it was Tohu va-vohu, and at the Heavens and they were without light.”&lt;/p&gt;
-
-&lt;p&gt;In context, this is part of a longer passage where Jeremiah is describing an undoing of creation. An explicit reversal of the acts carried out in the first few lines of Genesis. So this can not be treated as a separate source from which to derive some meaning for the phrase. In Isaiah 34:11:&lt;/p&gt;
-
-&lt;p&gt;.וירשוה קאת וקפוד וינשוף וערב ישכנו־בה ונטה עליה קו־תהו ואבני־בהו&lt;/p&gt;
-
-&lt;p&gt;“But the cormorant and the bittern will possess it, and the owl and the raven will dwell in it, and he shall stretch out on it the line of Tohu and the stones of Bohu.”&lt;/p&gt;
-
-&lt;p&gt;This passage is also part of a description of desolation and destruction. This time a prediction of what is to befall Babylon, as if Babylon will be unmade. Even here, with a connection to other words which we can translate easily (‘line’ and ‘stones’), it is very unclear what information we can glean from this passage. If anything, the connection of Tohu and Bohu to material things gives some weight to the Gnostic argument.&lt;/p&gt;
-
-&lt;p&gt;The reader familiar with Genesis will know that the overwhelmingly predominant translation of Tohu va-vohu is “without form and void,” or something of similar meaning. This translation, which treats Tohu va-vohu as a &lt;a href=&#34;https://en.wikipedia.org/wiki/Hendiadys&#34;&gt;hendiadys&lt;/a&gt;, supports the canonical view of creatio ex nihilo. Even the &lt;a href=&#34;https://en.wikipedia.org/wiki/Septuagint&#34;&gt;Septuagint&lt;/a&gt;, our earliest translation out of the biblical Hebrew, translates Tohu va-vohu as “ἀόρατος καὶ ἀκατα-σκεύαστος” which means “invisible and unformed”. It is important to note that this translation was prepared by 70 scholars who, while much more learned than myself, were also very much part of the majority camp which believed in a creatio ex nihilo.&lt;/p&gt;
-
-&lt;p&gt;Regardless, as we have seen there is really not much support for any translation at all. The leading interpretation seems to be based on oral tradition, what Jews would call Torah she b’al peh (תורה שבעל פה). My personal understanding of Tohu va-vohu is as something akin to chaos (which is not an entirely improper translation from the Greek in the Septuagint). I like to think of the creation myth as Order emerging from the Chaos, as this ties together nicely with my interest in emergence and &lt;a href=&#34;https://en.wikipedia.org/wiki/Symmetry_breaking&#34;&gt;symmetry breaking&lt;/a&gt;. The fact that Tohu va-vohu is untranslateable and thus the initial state of the Universe is, in a sense, unknowable from religious sources informed my early interest in science. I was very skeptical even as a young child, and I remember studying these words at the age of 6, seeing that there was debate over their interpretation, and falling down the rabbit hole of ancient rabbinical debates until I realized that the ony way out was through science.&lt;/p&gt;
-
-&lt;p&gt;So, when I use the words Tohu va-vohu I am referring to the initial state of the universe, before the ‘Beginning’, and I am affirming the unique ability of science to bring us this type of knowledge.&lt;/p&gt;
-
-&lt;p&gt;As a final note: you may find the Wikipedia page for this phrase at &lt;a href=&#34;https://en.wikipedia.org/wiki/Tohu_wa-bohu&#34;&gt;Tohu wa-Bohu&lt;/a&gt;. It is my firm belief that this transliteration of wa-bohu vs. va-vohu is incorrect and does not reflect the proper pronunciation of the words. To hear me saying these words, you can click &lt;a href=&#34;http://www.tohuvavohu.com/tohuvavohu.mp3&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>The first one-and-a-half lines of Genesis go as follows:
+…בראשית ברא אלהים את השמים ואת הארץ. והארץ היתה תהו ובהו וחשך על־פני תהום
+In the Hebrew text above, the phrase ‘Tohu va-vohu’ is in bold, the 3rd and 4th words of the second sentence (right-to-left). These lines are commonly translated as:
+“In the beginning, God created the Heavens and the Earth. And the Earth was Tohu va-vohu and darkness was on the face of the deep…”</description>
     </item>
     
     <item>
@@ -176,23 +69,7 @@ A bunch of algebraic manipulation. The details are left as an excercise for the 
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>http://tohuvavohu.github.io/home/about/</guid>
-      <description>
-
-&lt;h4 id=&#34;email-pgp-public-key-a-tohuvavohu-pub-asc&#34;&gt;Email: (&lt;a href=&#34;http://tohuvavohu.github.io/A.Tohuvavohu-pub.asc&#34;&gt;PGP public key&lt;/a&gt;)&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;aaronb &amp;lt;at&amp;gt; swift &amp;lt;dot&amp;gt; psu &amp;lt;dot&amp;gt; edu 
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;physical-address&#34;&gt;Physical address:&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;301 Science Park Road, Suite 332
-State College, PA 16803 
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I am currently a member of the Science Operations Team for the &lt;a href=&#34;http://swift.gsfc.nasa.gov/&#34;&gt;NASA Swift Explorer&lt;/a&gt; mission based at Penn State. Previously I worked with &lt;a href=&#34;http://www.wolfram.com/&#34;&gt;Wolfram&lt;/a&gt; building tools for quantum computing simulations. Before coming to Penn State I was an undergraduate at &lt;a href=&#34;http://www.reed.edu/&#34;&gt;Reed College&lt;/a&gt; where I studied physics and wrote a thesis on quantum mechanics in curved space-times under the supervision of &lt;a href=&#34;http://people.reed.edu/~jfrankli/&#34;&gt;Dr. Joel Franklin&lt;/a&gt;. In the summer of 2015 I was supervised by &lt;a href=&#34;http://www.physics.uci.edu/~kevork/Home.html&#34;&gt;Dr. Kevork Abazajian&lt;/a&gt; at the University of California, Irvine where we studied ways to measure the combined neutrino mass using cosmological probes of Large Scale Structure. I aspire to be a better writer, and &amp;ndash; along with descriptions of past and current projects &amp;ndash; you may occasionally find articles I am writing on this site.&lt;/p&gt;
-
-&lt;p&gt;In previous lives I worked as a custom frame builder, composite repair technician, mechanic, apprentice shipwright, and climbing guide.&lt;/p&gt;
-</description>
+      <description>Email: (PGP public key) aaronb &amp;lt;at&amp;gt; swift &amp;lt;dot&amp;gt; psu &amp;lt;dot&amp;gt; edu  Physical address: 301 Science Park Road, Suite 332 State College, PA 16803  I am currently a member of the Science Operations Team for the NASA Swift Explorer mission based at Penn State. Previously I worked with Wolfram building tools for quantum computing simulations. Before coming to Penn State I was an undergraduate at Reed College where I studied physics and wrote a thesis on quantum mechanics in curved space-times under the supervision of Dr.</description>
     </item>
     
     <item>
@@ -201,471 +78,7 @@ State College, PA 16803
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://tohuvavohu.github.io/status/</guid>
-      <description>&lt;!DOCTYPE html&gt;
-&lt;html lang=&#34;en-us&#34;&gt;
-&lt;head&gt;
-&lt;!-- Global Site Tag (gtag.js) - Google Analytics --&gt;
-&lt;script async src=&#34;https://www.googletagmanager.com/gtag/js?id=UA-107318167-1&#34;&gt;&lt;/script&gt;
-&lt;script&gt;
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)};
-  gtag(&#39;js&#39;, new Date());
-
-  gtag(&#39;config&#39;, &#39;UA-107318167-1&#39;);
-&lt;/script&gt;
-
-    &lt;meta charset=&#34;utf-8&#34;&gt;
-    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1&#34;&gt;
-    &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;IE=edge&#34;&gt;
-    &lt;meta name=&#34;theme&#34; content=&#34;hugo-academic&#34;&gt;
-    &lt;meta name=&#34;generator&#34; content=&#34;Hugo 0.16&#34; /&gt;
-    &lt;meta name=&#34;author&#34; content=&#34;Aaron Tohuvavohu&#34;&gt;
-    &lt;meta name=&#34;description&#34; content=&#34;Science Operations and Research for NASA Swift&#34;&gt;
-
-    &lt;link rel=&#34;stylesheet&#34; href=&#34;http://tohuvavohu.github.io/css/highlight.min.css&#34;&gt;
-    &lt;link rel=&#34;stylesheet&#34; href=&#34;http://tohuvavohu.github.io/css/bootstrap.min.css&#34;&gt;
-    &lt;link rel=&#34;stylesheet&#34; href=&#34;http://tohuvavohu.github.io/css/font-awesome.min.css&#34;&gt;
-    &lt;link rel=&#34;stylesheet&#34; href=&#34;http://tohuvavohu.github.io/css/academicons.min.css&#34;&gt;
-    &lt;link rel=&#34;stylesheet&#34; href=&#34;//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono&#34;&gt;
-    &lt;link rel=&#34;stylesheet&#34; href=&#34;http://tohuvavohu.github.io/css/hugo-academic.css&#34;&gt;
-    
-    &lt;script src=&#34;http://tohuvavohu.github.io/js/jquery-1.12.3.min.js&#34;&gt;&lt;/script&gt;
-
-
-
-    &lt;link rel=&#34;shortcut icon&#34; href=&#34;http://tohuvavohu.github.io/img/favicon.ico&#34; type=&#34;image/x-icon&#34;&gt;
-    &lt;link rel=&#34;canonical&#34; href=&#34;http://tohuvavohu.github.io/status/&#34;&gt;
-
-    &lt;title&gt;Swift Gamma-Ray-Burst Explorer Status | Aaron Tohuvavohu&lt;/title&gt;
-
-    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
-
-        &lt;!--[if !IE]&gt;&lt;!--&gt;
-    &lt;style&gt;
-    
-    /* 
-    Max width before this PARTICULAR table gets nasty
-    This query will  take effect for any screen smaller than 760px
-    and also iPads specifically.
-    */
-    @media 
-    only screen and (max-width: 760px),
-    (min-device-width: 768px) and (max-device-width: 1024px)  {
-    .orbittable {
-        width: 100% !important;
-        }
-    .googleMap {
-        width: 100% !important;
-    }
-    .currentobs {
-        border: 0;
-    }
-
-    .currentobs caption {
-        font-size: 1.3em;
-    }
-
-    .currentobs thead {
-        border: none;
-        clip: rect(0 0 0 0);
-        height: 1px;
-        margin: -1px;
-        overflow: hidden;
-        padding: 0;
-        position: absolute;
-        width: 1px;
-    }
-
-    .currentobs tr {
-        border-bottom: 3px solid #ddd;
-        display: block;
-        margin-bottom: .625em;
-    }
-
-    .currentobs td {
-        border-bottom: 1px solid #ddd;
-        display: block;
-        text-align: right;
-    }
-
-    .currentobs td:before {
-        content: attr(data-label);
-        font-weight: bold;
-        float: left;
-    }
-    .currentobs td:last-child {
-    border-bottom: 0;
-    }
-}
-    
-    /* Smartphones (portrait and landscape) ----------- */
-    @media only screen
-    and (min-device-width : 320px)
-    and (max-device-width : 480px) {
-        body { 
-            padding: 0; 
-            margin: 0; 
-            width: 320px; }
-        }
-    
-    /* iPads (portrait and landscape) ----------- */
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-        body { 
-            width: 495px; 
-        }
-    }
-    
-    &lt;/style&gt;
-    &lt;!--&lt;![endif]--&gt;
-
-&lt;/head&gt;
-&lt;body id=&#34;top&#34;&gt;
-
-
-&lt;nav class=&#34;navbar navbar-default navbar-fixed-top&#34; id=&#34;navbar-main&#34;&gt;
-    &lt;div class=&#34;container&#34;&gt;
-
-        
-        &lt;div class=&#34;navbar-header&#34;&gt;
-            &lt;button type=&#34;button&#34; class=&#34;navbar-toggle collapsed&#34; data-toggle=&#34;collapse&#34; data-target=&#34;.navbar-collapse&#34; aria-expanded=&#34;false&#34;&gt;
-                &lt;span class=&#34;sr-only&#34;&gt;Toggle navigation&lt;/span&gt;
-                &lt;span class=&#34;icon-bar&#34;&gt;&lt;/span&gt;
-                &lt;span class=&#34;icon-bar&#34;&gt;&lt;/span&gt;
-                &lt;span class=&#34;icon-bar&#34;&gt;&lt;/span&gt;
-            &lt;/button&gt;
-            &lt;a class=&#34;navbar-brand&#34; href=&#34;http://tohuvavohu.github.io/&#34;&gt;Aaron Tohuvavohu&lt;/a&gt;
-        &lt;/div&gt;
-
-        
-        &lt;div class=&#34;collapse navbar-collapse&#34; id=&#34;#navbar-collapse-1&#34;&gt;
-
-            
-            &lt;ul class=&#34;nav navbar-nav navbar-right&#34;&gt;
-                
-                &lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;http://tohuvavohu.github.io/status&#34;&gt;Spacecraft Status&lt;/a&gt;&lt;/li&gt;
-                
-                &lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;http://tohuvavohu.github.io/#top&#34;&gt;Home&lt;/a&gt;&lt;/li&gt;
-                
-                &lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;http://tohuvavohu.github.io/#posts&#34;&gt;Posts&lt;/a&gt;&lt;/li&gt;
-                
-                &lt;li class=&#34;nav-item&#34;&gt;&lt;a href=&#34;http://tohuvavohu.github.io/#selected&#34;&gt;Talks&lt;/a&gt;&lt;/li&gt;
-                                
-            &lt;/ul&gt;
-
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/nav&gt;
-
-&lt;div class=&#34;container&#34;&gt;
-
-&lt;article class=&#34;article&#34; itemscope itemtype=&#34;http://schema.org/Article&#34;&gt;
-&lt;script&gt;
-function current(){  
-$.getJSON(&#39;http://allorigins.us/get?url=http%3A//www.swift.psu.edu/operations/currentTarget.php&#39;, function(data){
-
-    var ok = $(data.contents).text();
-    var array = ok.split(&#39; &#39;);
-    arr = array.join().split(/\s|,/).filter(Boolean);
-//    alert(arr.length);
-    if(typeof arr[arr.length-1] ==&#39;undefined&#39;){
-        $(&#39;#SAA&#39;).text(&#34;Current observation data is not available. Check back later.&#34;);
-        $(&#39;#currentobs&#39;).empty();
-        $(&#39;#Schedule&#39;).text(&#34;Today&#39;s Full Schedule&#34;);
-        $(&#39;#Schedule&#39;).attr(&#34;href&#34;,&#34;https://www.swift.psu.edu/operations/obsSchedule.php?d=&#34;+arr[arr.length-11]);
-    }
-    else if(arr[arr.length-1]==&#39;100&#39;){
-        $(&#39;#SAA&#39;).text(&#34;The spacecraft is currently passing through the South Atlantic Anomaly. Observations will resume at &#34; + arr[arr.length-8] + &#34; UT.&#34;);
-        $(&#39;#currentobs&#39;).empty();
-        $(&#39;#Schedule&#39;).text(&#34;Today&#39;s Full Schedule&#34;);
-        $(&#39;#Schedule&#39;).attr(&#34;href&#34;,&#34;https://www.swift.psu.edu/operations/obsSchedule.php?d=&#34;+arr[arr.length-11]);
-    }
-    else{
-        $(&#39;#SAA&#39;).empty();
-        $(&#39;#currentobs&#39;).html();
-        $(&#39;#uvotMode&#39;).text(&#34;0x&#34;+arr[arr.length-2]);
-        $(&#39;#uvotMode&#39;).attr(&#34;href&#34;, &#34;http://www.swift.psu.edu/operations/mode_table.php?hexval=&#34;+arr[arr.length-2]);
-        $(&#39;#xrtMode&#39;).text(arr[arr.length-3]);
-        $(&#39;#xrtMode&#39;).attr(&#34;href&#34;, &#34;http://www.swift.ac.uk/analysis/xrt/modes.php&#34;);
-        $(&#39;#RA&#39;).text(Number(arr[arr.length-4]).toFixed(6));
-        $(&#39;#DEC&#39;).text(Number(arr[arr.length-5]).toFixed(6));
-        $(&#39;#duration&#39;).text(arr[arr.length-7]);
-        $(&#39;#end&#39;).text(arr[arr.length-9]+ &#34; &#34; +arr[arr.length-8]);
-        $(&#39;#start&#39;).text(arr[arr.length-11]+ &#34; &#34; +arr[arr.length-10]);
-        $(&#39;#Schedule&#39;).text(&#34;Today&#39;s Full Schedule&#34;);
-        $(&#39;#Schedule&#39;).attr(&#34;href&#34;,&#34;https://www.swift.psu.edu/operations/obsSchedule.php?d=&#34;+arr[arr.length-11]);
-        
-// For target names with multiple spaces
-        var counter = arr.length-12;
-        if (counter == 0){            
-            $(&#39;#targetName&#39;).text(arr[0]);           
-        }
-          else if (counter== 1){
-            $(&#39;#targetName&#39;).text(arr[0]+&#34; &#34;+arr[1]);
-        } else if (counter == 2){
-            $(&#39;#targetName&#39;).text(arr[0]+&#34; &#34;+arr[1]+&#34; &#34;+arr[2]);
-        }
-    }
-});
-setTimeout( current, 30000 );
-}
-current();
-&lt;/script&gt;   
-&lt;div class=&#39;content_wrapper&#39;&gt;
-&lt;div class=&#39;container&#39;&gt;
-&lt;div class=&#39;row&#39;&gt;
-&lt;div class=&#39;home_page&#39;&gt;
-&lt;div class=&#39;span12&#39;&gt;
-&lt;p style=&#34;text-align: center&#34;&gt;Currently Observing&lt;sup&gt;&amp;dagger;&lt;/sup&gt;&lt;/p&gt; 
-&lt;center&gt;&lt;div id=&#39;SAA&#39; style=&#34;color:#FF0000&#34;&gt;&lt;/div&gt;&lt;/center&gt;
-&lt;div class=&#39;currentobs&#39; id=&#39;currentobs&#39;&gt;
-&lt;table class=&#39;currentobs&#39;&gt;
-    &lt;thead&gt;
-    &lt;tr&gt;
-    &lt;th scope=&#34;col&#34;&gt;
-    Target Name
-    &lt;/th&gt;
-    &lt;th scope=&#34;col&#34;&gt;
-    Obs. Start
-    &lt;/th&gt;
-    &lt;th scope=&#34;col&#34;&gt;
-    Obs. End
-    &lt;/th&gt;
-    &lt;th scope=&#34;col&#34;&gt;
-    Duration (s)
-    &lt;/th&gt;
-    &lt;th scope=&#34;col&#34;&gt;
-    XRT mode
-    &lt;/th&gt;
-    &lt;th scope=&#34;col&#34;&gt;
-    UVOT mode
-    &lt;/th&gt;
-    &lt;th scope=&#34;col&#34;&gt;
-    Right Ascension
-    &lt;/th&gt;
-    &lt;th scope=&#34;col&#34;&gt;
-    Declination
-    &lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;/thead&gt;
-    &lt;tbody&gt;
-    &lt;tr&gt;
-  
-
-    &lt;td data-label=&#34;Target Name&#34;&gt;
-        &lt;div id=&#39;targetName&#39;&gt;&lt;/div&gt;
-    &lt;/td&gt;
-    &lt;td data-label=&#34;Obs. Start&#34;&gt;
-        &lt;div id=&#39;start&#39;&gt;&lt;/div&gt;
-    &lt;/td&gt;
-    &lt;td data-label=&#34;Obs. End&#34;&gt;
-        &lt;div id=&#39;end&#39;&gt;&lt;/div&gt;
-    &lt;/td&gt;
-    &lt;td data-label=&#34;Duration (s)&#34;&gt;
-        &lt;div id=&#39;duration&#39;&gt;&lt;/div&gt;
-    &lt;/td&gt;
-    &lt;td data-label=&#34;XRT mode&#34;&gt;
-        &lt;a id=&#39;xrtMode&#39;&gt;&lt;a&gt;&lt;/a&gt;&lt;/div&gt;
-    &lt;/td&gt;
-    &lt;td data-label=&#34;UVOT mode&#34;&gt;
-        &lt;a id=&#39;uvotMode&#39;&gt;&lt;a&gt;&lt;/a&gt;&lt;/div&gt;
-    &lt;/td&gt;
-    &lt;td data-label=&#34;Right Ascension&#34;&gt;
-        &lt;div id=&#39;RA&#39;&gt;&lt;/div&gt;
-    &lt;/td&gt;
-    &lt;td data-label=&#34;Declination&#34;&gt;
-        &lt;div id=&#39;DEC&#39;&gt;&lt;/div&gt;
-    &lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;center&gt; &lt;a id=&#39;Schedule&#39;&gt;&lt;a&gt;&lt;/a&gt;&lt;/center&gt;
-
-&lt;div id=&#34;googleMap&#34; class=&#34;googleMap&#34; style=&#34;width:75%;height:400px;float:left;&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;orbittable&#34; style=&#34;float:left; width:25%;&#34;&gt;
-&lt;table&gt;
-        &lt;center&gt;Orbital Data &lt;sup&gt;&amp;Dagger;&lt;/sup&gt;&lt;/center&gt;
-            &lt;tr&gt;
-                &lt;th&gt;NORAD ID:&lt;/th&gt;&lt;/thead&gt;&lt;td&gt;&lt;div id=&#34;noradid&#34;&gt;28485&lt;/div&gt;&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr class=&#34;bgray&#34;&gt;
-                &lt;th&gt;Latitude:&lt;/th&gt;&lt;td&gt;&lt;div id=&#34;satlat&#34;&gt;&lt;/div&gt;&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;th&gt;Longitude:&lt;/th&gt;&lt;td&gt;&lt;div id=&#34;satlng&#34;&gt;&lt;/div&gt;&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr class=&#34;bgray&#34;&gt;
-                &lt;th&gt;Altitude [km]:&lt;/th&gt;&lt;td&gt;&lt;div id=&#34;satalt&#34;&gt;&lt;/div&gt;&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr class=&#34;bgray&#34;&gt;
-                &lt;th&gt;Speed [km/s]:&lt;/th&gt;&lt;td&gt;&lt;div id=&#34;satspd&#34;&gt;&lt;/div&gt;&lt;/td&gt;
-            &lt;/tr&gt;
-             &lt;tr&gt;
-                &lt;th&gt;Inclination:&lt;/th&gt;&lt;td&gt;&lt;div id=&#34;satincl&#34;&gt;20.55&lt;/div&gt;&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr class=&#34;bgray&#34;&gt;
-                &lt;th&gt;Orbital Period:&lt;/th&gt;&lt;td&gt;&lt;div id=&#34;period&#34;&gt;96 min.&lt;/div&gt;&lt;/td&gt;
-            &lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-
-
-&lt;script src=&#34;https://cdn.rawgit.com/lizard-isana/orb.js/2abf874d/build/min/orb.v2.min.js&#34;&gt;&lt;/script&gt;
-&lt;script&gt;
-function satData(){
-var date = new Date();
-
-var tle = {
-  first_line:&#34;1 28485U 04047A   17318.83485433  .00001035  00000-0  41336-4 0  9990&#34;,
-  second_line:&#34;2 28485  20.5556 161.4335 0011316 342.0872  17.9163 15.03935102710917&#34;
-}
-var satellite = new Orb.SGP4(tle);
-var xyz = satellite.xyz(date); // Earth centered equatorial rectangular coordinates (x, y, z, xdot, ydot, zdot)
-var latlng = satellite.latlng(date); // geographic spherical coordinates(latitude, longitude, altitude)
-
-return latlng;
-}
-
-function orbitalData() {
-
-    document.getElementById(&#39;satlat&#39;).innerHTML = satData().latitude.toFixed(3);
-    document.getElementById(&#39;satlng&#39;).innerHTML = satData().longitude.toFixed(3);
-    document.getElementById(&#39;satalt&#39;).innerHTML = satData().altitude.toFixed(2);   
-    document.getElementById(&#39;satspd&#39;).innerHTML = 7.58;
-
-    setTimeout( orbitalData, 1000 );
-
-    var newLatLng = new google.maps.LatLng(satData().latitude, satData().longitude);
-    marker.setPosition(newLatLng);
-
-var d = new Date(),
-      h = (d.getUTCHours()&lt;10?&#39;0&#39;:&#39;&#39;) + d.getUTCHours(),
-      m = (d.getUTCMinutes()&lt;10?&#39;0&#39;:&#39;&#39;) + d.getUTCMinutes(),
-      s = (d.getUTCSeconds()&lt;10?&#39;0&#39;:&#39;&#39;) + d.getUTCSeconds(),
-      time = h + &#39;:&#39; + m + &#39;:&#39; + s + &#39; UTC&#39;;
-}
-
-orbitalData();
-
-&lt;/script&gt;
-&lt;script&gt;
-var map;
-var marker;
-
-function myMap() {
-
-var swiftpos = {lat: satData().latitude, lng: satData().longitude};
-        map = new google.maps.Map(document.getElementById(&#39;googleMap&#39;), {
-          zoom: 4,
-          center: swiftpos
-        });
-        marker = new google.maps.Marker({
-          position: swiftpos,
-          map: map,
-          icon: &#39;/img/swiftscaled.png&#39;
-        });
-}
-
-setInterval(updateMap, 1000);
-
-function updateMap(){
-   LatLng = new google.maps.LatLng(satData().latitude, satData().longitude);
-   marker.setPosition(LatLng)
-   map.setCenter(LatLng);
-
-}
-&lt;/script&gt;
-&lt;script src=&#34;https://maps.googleapis.com/maps/api/js?key=AIzaSyC0C0B9UfouZUHFVAdfThcz3L7s1iSxJO8&amp;callback=myMap&#34;&gt;&lt;/script&gt;
-&lt;/p&gt;
-&lt;div style = &#34;float: left&#34;&gt;
-&lt;p style = &#34;color: grey; font-size:11px&#34;&gt;&lt;sup&gt;&amp;dagger;&lt;/sup&gt;The current target information is based off of the Pre-Planned Science Timeline (PPST), uploaded to the spacecraft. If there has been a GRB detection, or an AT upload, this information may be incorrect.&lt;br/&gt;
-&lt;sup&gt;&amp;Dagger;&lt;/sup&gt;The orbital data is calculated based on the latest Two-Line-Element for Swift, provided by U.S. Air Force Space Command.&lt;/p&gt;
-    &lt;/article&gt;
-
-    &lt;nav&gt;
-    &lt;ul class=&#34;pager&#34;&gt;
-        
-
-        
-    &lt;/ul&gt;
-&lt;/nav&gt;
-
-    
-&lt;section id=&#34;comments&#34;&gt;
-    &lt;div id=&#34;disqus_thread&#34;&gt;
-        
-    &lt;/div&gt;
-&lt;/section&gt;
-
-
-
-&lt;/div&gt;
-&lt;footer class=&#34;site-footer&#34;&gt;
-    &lt;div class=&#34;container&#34;&gt;
-        &lt;p class=&#34;powered-by&#34;&gt;
-
-            &amp;copy; 2017 Aaron Tohuvavohu &amp;middot; 
-
-
-            &lt;span class=&#34;pull-right&#34;&gt;&lt;a href=&#34;#&#34; id=&#34;back_to_top&#34;&gt;&lt;span class=&#34;button_icon&#34;&gt;&lt;i class=&#34;fa fa-chevron-up fa-2x&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
-
-        &lt;/p&gt;
-    &lt;/div&gt;
-&lt;/footer&gt;
-
-        &lt;script src=&#34;//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js&#34;&gt;&lt;/script&gt;
-        &lt;script src=&#34;//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js&#34;&gt;&lt;/script&gt;
-        &lt;script src=&#34;http://tohuvavohu.github.io/js/bootstrap.min.js&#34;&gt;&lt;/script&gt;
-        &lt;script src=&#34;http://tohuvavohu.github.io/js/hugo-academic.js&#34;&gt;&lt;/script&gt;
-        
-
-        
-
-        
-        &lt;script src=&#34;//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js&#34;&gt;&lt;/script&gt;
-        &lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
-
-        
-        
-        &lt;script type=&#34;text/x-mathjax-config&#34;&gt;
-            MathJax.Hub.Config({ tex2jax: { inlineMath: [[&#39;$&#39;,&#39;$&#39;], [&#39;\\(&#39;,&#39;\\)&#39;]] } });
-        &lt;/script&gt;
-        &lt;script async src=&#34;//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML&#34;&gt;&lt;/script&gt;
-        
-
-    &lt;/body&gt;
-&lt;/html&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Selected Talks</title>
-      <link>http://tohuvavohu.github.io/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://tohuvavohu.github.io/home/talks/</guid>
-      <description>&lt;div&gt;
-&lt;font size=&#34;-1&#34;&gt;
-&lt;u&gt;November 7:&lt;/u&gt; I will be giving a lunch talk to the Astro department at Penn State on Swift&#39;s hunt for EM counterparts to gravitational-wave events.&lt;br&gt;
-
-
-&lt;u&gt;November 5:&lt;/u&gt; I will be giving a talk titled &lt;a href=&#34;http://meetings.aps.org/Meeting/MAS17/Session/M5.3&#34;&gt;Searching for the radiative decay of sterile neutrino dark matter with Swift XRT&lt;/a&gt; at the &lt;a href=&#34;https://centers.njit.edu/midatlanticaps/node/62/&#34;&gt;Mid-Atlantic APS&lt;/a&gt; in Newark, New Jersey.&lt;br&gt;
-
-
-&lt;u&gt;October 30:&lt;/u&gt; I will be giving a lay-talk to a public audience at &lt;a href=&#34;https://www.facebook.com/aotsc/&#34;&gt;Astronomy on Tap: State College&lt;/a&gt; titled &#39;Hearing and Seeing the Universe: Hunting for EM counterparts to gravitational-waves with Swift.&#39;&lt;br&gt;
-
-
-&lt;u&gt;October 19:&lt;/u&gt; I will be giving a talk titled &lt;a href=&#34;https://tigers.phys.lsu.edu/wordpress/wp-content/uploads/2017/09/Tohuvavohu.pdf&#34;&gt;Swift as a follow-up engine for GW triggers: Improving for O3&lt;/a&gt; at the IAU Symposium &lt;a href=&#34;http://iau338.lsu.edu/&#34;&gt;Gravitational Wave Astrophysics:
-Early Results from GW Searches and Electromagnetic Counterparts&lt;/a&gt; in Baton Rouge, Louisiana.&lt;br&gt;
-
-
-&lt;u&gt;October 14:&lt;/u&gt; I will be giving a talk titled &#39;The absence of (true) bound states for the single-particle Dirac equation on the Kerr black hole&#39; at the &lt;a href=&#34;https://sites.google.com/a/umich.edu/midwest-gravity-meeting/home&#34;&gt;27th Midwest Relativity Meeting&lt;/a&gt; in Ann Arbor, Michigan.
-&lt;/font&gt;
-&lt;/div&gt;
-</description>
+      <description>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments)}; gtag(&#39;js&#39;, new Date()); gtag(&#39;config&#39;, &#39;UA-107318167-1&#39;);   Swift Gamma-Ray-Burst Explorer Status | Aaron Tohuvavohu   /* Max width before this PARTICULAR table gets nasty This query will take effect for any screen smaller than 760px and also iPads specifically. */ @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) { .orbittable { width: 100% !important; } .googleMap { width: 100% !</description>
     </item>
     
   </channel>

@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Aaron Tohuvavohu</copyright>
     <lastBuildDate>Tue, 12 Dec 2017 12:00:00 +0000</lastBuildDate>
-    <atom:link href="http://tohuvavohu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://tohuvavohu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Swift acrobatics in response to GW170817</title>
@@ -16,20 +18,8 @@
       <pubDate>Tue, 12 Dec 2017 12:00:00 +0000</pubDate>
       
       <guid>http://tohuvavohu.github.io/post/followup/</guid>
-      <description>&lt;p&gt;Below you will see a visualisation of the maneuvers that the Swift spacecraft performed in the course of its &lt;a href=&#34;https://arxiv.org/abs/1710.05437&#34;&gt;tiling observations&lt;/a&gt; in response to &lt;a href=&#34;http://www.wikipedia.org/wiki/GW170817&#34;&gt;GW170817&lt;/a&gt;. This campaign was comprised of 744 individual pointings that covered 92% of the galaxy-convolved gravitational wave error region. Swift is the only spacecraft that can perform this type of fast-response tiling, and will remain so for the foreseeable future.&lt;/p&gt;
-
-&lt;p&gt;The video shows a skymap. The large and small red circles are the sun and moon constraints on the sky, respectively.
-Everything shaded green/blue is behind the Earth from the perspective of the spacecraft. The dancing red dot shows the position of the Swift X-ray Telescope field-of-view on the sky.
-The small black dot sweeping across the sky is the position of the spacecraft itself in Earth-centered coordinates. Everytime the Sun and Moon cross the map, Swift has completed one orbit of the Earth.
-This takes approximately 96 minutes in real-time, so the video is sped-up by 3000x in the beginning. However, you will see that this rate is not constant.
-This &amp;lsquo;video&amp;rsquo; is actually a  compilation of snapshots, one for each slew maneuver. When the spacecraft is performing a large number of successive slews, as during tiling, the video will appear to slow down.
-When the video begins Swift is engaged in normal operations, long complex and rapid slewing maneuvers across the sky (the red paths). However, after a little bit the red dot stops dancing across the sky and will appear to jiggle around in one place.
-This is the spacecraft performing the tiling. The Atitude Control System is keeping the telescopes focused on this one small region of the sky, even as the spacecraft itself swings around the earth at 17,000 mph.  Enjoy, and keep in mind that for any other spacecraft such a video would be interminably boring!&lt;/p&gt;
-
-&lt;iframe src=&#34;https://drive.google.com/file/d/0B7MdMZq6cO7mZzYtaXZLNkdDZXc/preview&#34; width=&#34;640&#34; height=&#34;480&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Thanks to Jeff Gropp.&lt;/p&gt;
-</description>
+      <description>Below you will see a visualisation of the maneuvers that the Swift spacecraft performed in the course of its tiling observations in response to GW170817. This campaign was comprised of 744 individual pointings that covered 92% of the galaxy-convolved gravitational wave error region. Swift is the only spacecraft that can perform this type of fast-response tiling, and will remain so for the foreseeable future.
+The video shows a skymap. The large and small red circles are the sun and moon constraints on the sky, respectively.</description>
     </item>
     
     <item>
@@ -38,87 +28,16 @@ This is the spacecraft performing the tiling. The Atitude Control System is keep
       <pubDate>Sat, 21 Oct 2017 12:00:00 +0000</pubDate>
       
       <guid>http://tohuvavohu.github.io/post/counterparts-for-everyone/</guid>
-      <description>&lt;p&gt;On August 17, 2017 the first object ever detected with both gravitational waves and light was found, now known as &lt;a href=&#34;https://en.wikipedia.org/wiki/AT_2017gfo&#34;&gt;AT 2017gfo&lt;/a&gt;. The initial LIGO/Virgo and Fermi GBM alerts sent astronomers all over the world dashing to their telescopes to try and localize the electromagnetic counterpart in the relatively small (compared to past events) but still quite large localization region. The counterpart was independently found in the first night of searching by several different teams, though the &lt;a href=&#34;http://science.sciencemag.org/content/early/2017/10/13/science.aap9811&#34;&gt;Swope Supernova Survey&lt;/a&gt; were the first to report it. The Swift team played a crucial role in this discovery, being the first to find the &lt;a href=&#34;http://science.sciencemag.org/content/early/2017/10/13/science.aap9580&#34;&gt;UV emission&lt;/a&gt; and providing the deepest upper limits in X-ray and UV for the rest of the localization region, providing convincing evidence that there was no other counterpart candidate in the field. When AT 2017gfo was found it was at 18th magnitude in the optical band, it briefly got brighter and then faded quickly over the next 48 hours. Missing from this story is any amateur involvement in the search. This is because the alerts from LIGO/Virgo were not public during O2. With O3 set to begin in the next 10-18 months, the collaboration has stated that they will begin to make these alerts public. Objects at 18th magnitude (and brighter) are detectable by some dedicated amateurs with good instrumentation. Previously amateur astronomers have succesfully &lt;a href=&#34;https://science.nasa.gov/science-news/science-at-nasa/2000/ast14mar_2m&#34;&gt;found afterglows to GRBs&lt;/a&gt;, and participated usefully in campaigns through the &lt;a href=&#34;https://www.aavso.org/&#34;&gt;AAVSO&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The vision is for a centralized framework that provides interested amateurs with specific pointings, or even complete tiling solutions for those with robotic telescopes. These pointings will be based on the specific instrumentation that the user has access to, as well as their geographical location. The framework would be able to produce tiling plans for telescopes of any aperture and field-of-view, and coordinate the most optimized observing plan based on the distribution and number of participating users. A diverse distribution in both longitude and latitude is important to facilitate the fastest response (always night somewhere) and preclude the possibility of lattitude constrained targets. Amateurs could be especially helpful in searching some of the lower probability regions during the early time after the trigger, something professional astronomers are loathe to do. Several test runs could be performed in the period leading up to O3 with rapid response searches to identify afterglows of Fermi GBM triggers.&lt;/p&gt;
-
-&lt;p&gt;While there are a few technical obstacles, namely very heterogenous data sources and customized tiling solutions, they are by no means insurmountable. The Swift team has the experience creating the most complex and dynamic tiling solutions to find poorly localized astrophysical transients.&lt;/p&gt;
-
-&lt;p&gt;Stay tuned, more to come.&lt;/p&gt;
-</description>
+      <description>On August 17, 2017 the first object ever detected with both gravitational waves and light was found, now known as AT 2017gfo. The initial LIGO/Virgo and Fermi GBM alerts sent astronomers all over the world dashing to their telescopes to try and localize the electromagnetic counterpart in the relatively small (compared to past events) but still quite large localization region. The counterpart was independently found in the first night of searching by several different teams, though the Swope Supernova Survey were the first to report it.</description>
     </item>
     
     <item>
       <title>The Aliens and Presidents Puzzle</title>
-      <link>http://tohuvavohu.github.io/post/Alien%20Puzzle/</link>
+      <link>http://tohuvavohu.github.io/post/alien-puzzle/</link>
       <pubDate>Thu, 01 Sep 2016 12:00:00 +0000</pubDate>
       
-      <guid>http://tohuvavohu.github.io/post/Alien%20Puzzle/</guid>
-      <description>&lt;p&gt;This post is about a very tricky math puzzle, and really has very little to do with aliens or presidents. This puzzle made the rounds stumping people at Reed College in 2014, and was created by my friend Steve Silverman (who seems to have an unlimited supply of unique puzzles of his own design). All credit for cleverness and ingenuity goes to him. This post was written because there were several people who did not believe that this puzzle had a real, unique, solution or else that there was some wordplay involved rather than mathematics. The puzzle begins below:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;There are aliens living in a nearby solar system, and they love to travel. They also eat humans. On some day after 1800 they realize that one of their journeys will take them past Earth, and so they decide to &amp;lsquo;check out the menu&amp;rsquo; and determine whether it would be worthwhile to stop on Earth for lunch. Now some humans are edible, and the rest are inedible. The advance scouting party that the Aliens send to see whether a stop would be viable perform a complete, precise, and instant census. They discover that the chance that two humans selected at random would both be inedible is exactly 50%. They determine that the venture would be uneconomical, and left.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Question: On that day who was president of the United States?&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;div style=&#34;display: none;&#34; id=&#34;hiddenText&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;If we let m= # of edible people and n= # inedible people, then total world population is n+m. We also have:&lt;/p&gt;
-
-&lt;p&gt;\begin{equation}
-{n \choose 2}/{n+m \choose 2}=\frac{1}{2}
-\end{equation}&lt;/p&gt;
-
-&lt;p&gt;From this we get:
-\begin{equation}
-n=\frac{1}{2}(2m+1+\sqrt{8m^2+1})\rightarrow 8m^2+1=p^2\rightarrow 8m^2=(p+1)(p-1)=2q*2(q-1)
-\end{equation}
-or
-\begin{equation}
-m^2=\frac{q}{2}(q-1).
-\end{equation}
-So, either
-\begin{equation}
-q=b^2,\phantom{bladida}\frac{q-1}{2}=a^2
-\end{equation}
-with
-\begin{equation}
-2a^2+1=b^2.
-\end{equation}
-Or,
-\begin{equation}
-q-1=b^2, q/2=a^2, \text{ and } 2a^2-1=b^2.
-\end{equation}
-So, $b^2=2a^2\pm 1$ (Pell&amp;rsquo;s Eq.), and $m=ab$. Conversely $b^2\rightarrow\sqrt{8m^2+1}$ is a whole number.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Difference Equation&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;Let $b_0=b_1=1,$   $b_{k+1}=2b_k+b_{k-1}$ and let $a_0=0,$ $a_1=1,$ $a_{k+1}=2a_k+a_{k-1}.$&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Lemma&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;a and b satisfy Pell&amp;rsquo;s equation if and only if $a=a_k,$ $b=b_k$ for some $k\geq 0$.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Proof&lt;/strong&gt;:
-A bunch of algebraic manipulation. The details are left as an excercise for the reader because I&amp;rsquo;m too lazy to typeset it.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Thus, any solution to Eq. 1 $\rightarrow m=m_k=a_kb_k$, for $k\geq1$, and so  $n_k\approx$ $\frac{1}{2}(2m_k+1+2\sqrt{2m_k})=(1+\sqrt{2})m_k+\frac{1}{2}$ for large k.&lt;/p&gt;
-
-&lt;p&gt;The solution of the difference equation is given by $b_k=\frac{1}{2}(\beta^k+(\frac{-1}{\beta})^k)\approx\frac{\beta^k}{2},$ with $\beta=1+\sqrt{2}.$&lt;/p&gt;
-
-&lt;p&gt;Since $2a_k^2+(-1)^k=b_k^2\longrightarrow a_k\approx \frac{b_k}{\sqrt{2}}\approx \frac{\beta}{2\sqrt{2}}.$ This gives $m_k\approx\frac{\beta^{2k}}{4\sqrt{2}}$, and  $n_k\approx\frac{\beta^{2k+1}}{4\sqrt{2}}+\frac{1}{2}.$ Now $T_k=m_k+n_k\approx\frac{\beta^{2k+1}}{4\sqrt{2}}+\frac{1}{2}.$ In fact, $T_k=\frac{\beta^{2k+1}}{4\sqrt{2}}+\frac{1}{2}$ rounded to the nearest integer.&lt;/p&gt;
-
-&lt;p&gt;To be clear, the $T_k$ we have just produced is the generating sequence for numbers with the property $n+m=T_k$ and the exact probability condition for choosing two inedibles. That is, there are only some numbers (populations of the Earth) with these properties. For example, $T_{12}=927.5*10^6,$ $T_{13}=5.4*10^9,$ and $T_{14}=31.5*10^9.$ The world population since 1800 $&amp;gt; 10^9,$ and now it is $7.4*10^9.$ So, there is only one number in the generated sequence that corresponds to a valid Earth population during the period since 1800. Hence, the aliens showed up at $T_{13}$ in 1992 and &lt;strong&gt;George H. W. Bush&lt;/strong&gt; was president.
-&lt;/div&gt;
-&lt;a href=&#34;#&#34; onclick=&#34;document.getElementById(&#39;hiddenText&#39;).style.display=&#39;block&#39;; return false;&#34;&gt;Click here to see the solution.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I love this puzzle because it needs no advanced mathematics (anything beyond elementary probability and you&amp;rsquo;re probably on the wrong track), and yet continues to stump so many people&amp;hellip;including some very skilled mathematicians. It also serves as a demonstration of the incredible power of mathematics to find solutions in situations that seem impossible; in this case by exploiting structure in the problem that carries more import than intuition would predict. &amp;ldquo;How the hell&amp;hellip;?&amp;rdquo; is the normal reaction to this puzzle, and yet the solution exists and is accesible to the pioneering mind with only minimal training.&lt;/p&gt;
-</description>
+      <guid>http://tohuvavohu.github.io/post/alien-puzzle/</guid>
+      <description>This post is about a very tricky math puzzle, and really has very little to do with aliens or presidents. This puzzle made the rounds stumping people at Reed College in 2014, and was created by my friend Steve Silverman (who seems to have an unlimited supply of unique puzzles of his own design). All credit for cleverness and ingenuity goes to him. This post was written because there were several people who did not believe that this puzzle had a real, unique, solution or else that there was some wordplay involved rather than mathematics.</description>
     </item>
     
     <item>
@@ -127,47 +46,10 @@ A bunch of algebraic manipulation. The details are left as an excercise for the 
       <pubDate>Sun, 28 Aug 2016 12:00:00 +0000</pubDate>
       
       <guid>http://tohuvavohu.github.io/post/tohuvavohu/</guid>
-      <description>&lt;p&gt;The first one-and-a-half lines of Genesis go as follows:&lt;/p&gt;
-
-&lt;p&gt;…בראשית ברא אלהים את השמים ואת הארץ. והארץ היתה &lt;strong&gt;תהו ובהו&lt;/strong&gt; וחשך על־פני תהום&lt;/p&gt;
-
-&lt;p&gt;In the Hebrew text above, the phrase ‘Tohu va-vohu’ is in bold, the 3rd and 4th words of the second sentence (right-to-left). These lines are commonly translated as:&lt;/p&gt;
-
-&lt;p&gt;“In the beginning, God created the Heavens and the Earth. And the Earth was &lt;strong&gt;Tohu va-vohu&lt;/strong&gt; and darkness was on the face of the deep…”&lt;/p&gt;
-
-&lt;p&gt;Despite opening this post with a quote from scripture, I am not a religious person. I am intensely skeptical of religion and am probably best characterized as fiercely agnostic. However, I was raised in a Jewish household and spent the first 12 years of my life studying religious texts. It seems like it would be a waste not to utilize some of that knowledge at least occasionally. Only two things have really stayed with me from those early years:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;How to calculate the proper compensation if your donkey falls into a hole I dug and failed to properly cover.&lt;/li&gt;
-&lt;li&gt;The phrase Tohu va-vohu.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;So, why do I find these words so interesting? And why have I failed to translate them yet?&lt;/p&gt;
-
-&lt;p&gt;The answers to these two questions are interrelated. Even without knowing what Tohu va-vohu means, we see from context that it describes the initial conditions of the Universe. As someone who studies physics, and is especially interested in cosmology, I find this compelling in itself. I am not claiming that there is any hidden mystical truth about the initial state of the Universe in these words, only that the concept of an intial state as opposed to &lt;em&gt;creatio ex nihilo&lt;/em&gt; is intriguing in the religious context where we are so often told to accept a divine creator, as opposed to an orderer. Indeed, this debate goes back at least as far as &lt;a href=&#34;https://en.wikipedia.org/wiki/Rabbi_Akiva&#34;&gt;Rabbi Akiva&lt;/a&gt; who has a classic argument in the &lt;a href=&#34;https://en.wikipedia.org/wiki/Genesis_Rabbah&#34;&gt;B’reshit Rabbah&lt;/a&gt; refuting the gnostic view that God needed the use of, or assistance from, some primordial materials (the Tohu and the Bohu) in order to build the Universe. So, it is clear that the meaning of these words is critical to these arguments. If Tohu and Bohu are qualities that imply some form or substance, this would give ample weight to the Gnostic viewpoint.&lt;/p&gt;
-
-&lt;p&gt;So, on to the task of translation. This turns out to be rather difficult. The phrase Tohu va-vohu appears only three times total in the entire canon: the instance we have been discussing (Genesis 1:2), Jeremiah 4:23, and Isaiah 34:11. So, we have a very small sample set to work with in attempting translation. Moreover, the issue is compounded because the occasions where Tohu va-vohu appear in Jeremiah and Isaiah actually seem to be directly referencing the use of the words in Genesis 1:2. In Jeremiah 4:23:&lt;/p&gt;
-
-&lt;p&gt;.ראיתי את־הארץ והנה־תהו ובהו ואל־השמים ואין אורם&lt;/p&gt;
-
-&lt;p&gt;“And I looked at the Earth and saw it was Tohu va-vohu, and at the Heavens and they were without light.”&lt;/p&gt;
-
-&lt;p&gt;In context, this is part of a longer passage where Jeremiah is describing an undoing of creation. An explicit reversal of the acts carried out in the first few lines of Genesis. So this can not be treated as a separate source from which to derive some meaning for the phrase. In Isaiah 34:11:&lt;/p&gt;
-
-&lt;p&gt;.וירשוה קאת וקפוד וינשוף וערב ישכנו־בה ונטה עליה קו־תהו ואבני־בהו&lt;/p&gt;
-
-&lt;p&gt;“But the cormorant and the bittern will possess it, and the owl and the raven will dwell in it, and he shall stretch out on it the line of Tohu and the stones of Bohu.”&lt;/p&gt;
-
-&lt;p&gt;This passage is also part of a description of desolation and destruction. This time a prediction of what is to befall Babylon, as if Babylon will be unmade. Even here, with a connection to other words which we can translate easily (‘line’ and ‘stones’), it is very unclear what information we can glean from this passage. If anything, the connection of Tohu and Bohu to material things gives some weight to the Gnostic argument.&lt;/p&gt;
-
-&lt;p&gt;The reader familiar with Genesis will know that the overwhelmingly predominant translation of Tohu va-vohu is “without form and void,” or something of similar meaning. This translation, which treats Tohu va-vohu as a &lt;a href=&#34;https://en.wikipedia.org/wiki/Hendiadys&#34;&gt;hendiadys&lt;/a&gt;, supports the canonical view of creatio ex nihilo. Even the &lt;a href=&#34;https://en.wikipedia.org/wiki/Septuagint&#34;&gt;Septuagint&lt;/a&gt;, our earliest translation out of the biblical Hebrew, translates Tohu va-vohu as “ἀόρατος καὶ ἀκατα-σκεύαστος” which means “invisible and unformed”. It is important to note that this translation was prepared by 70 scholars who, while much more learned than myself, were also very much part of the majority camp which believed in a creatio ex nihilo.&lt;/p&gt;
-
-&lt;p&gt;Regardless, as we have seen there is really not much support for any translation at all. The leading interpretation seems to be based on oral tradition, what Jews would call Torah she b’al peh (תורה שבעל פה). My personal understanding of Tohu va-vohu is as something akin to chaos (which is not an entirely improper translation from the Greek in the Septuagint). I like to think of the creation myth as Order emerging from the Chaos, as this ties together nicely with my interest in emergence and &lt;a href=&#34;https://en.wikipedia.org/wiki/Symmetry_breaking&#34;&gt;symmetry breaking&lt;/a&gt;. The fact that Tohu va-vohu is untranslateable and thus the initial state of the Universe is, in a sense, unknowable from religious sources informed my early interest in science. I was very skeptical even as a young child, and I remember studying these words at the age of 6, seeing that there was debate over their interpretation, and falling down the rabbit hole of ancient rabbinical debates until I realized that the ony way out was through science.&lt;/p&gt;
-
-&lt;p&gt;So, when I use the words Tohu va-vohu I am referring to the initial state of the universe, before the ‘Beginning’, and I am affirming the unique ability of science to bring us this type of knowledge.&lt;/p&gt;
-
-&lt;p&gt;As a final note: you may find the Wikipedia page for this phrase at &lt;a href=&#34;https://en.wikipedia.org/wiki/Tohu_wa-bohu&#34;&gt;Tohu wa-Bohu&lt;/a&gt;. It is my firm belief that this transliteration of wa-bohu vs. va-vohu is incorrect and does not reflect the proper pronunciation of the words. To hear me saying these words, you can click &lt;a href=&#34;http://www.tohuvavohu.com/tohuvavohu.mp3&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>The first one-and-a-half lines of Genesis go as follows:
+…בראשית ברא אלהים את השמים ואת הארץ. והארץ היתה תהו ובהו וחשך על־פני תהום
+In the Hebrew text above, the phrase ‘Tohu va-vohu’ is in bold, the 3rd and 4th words of the second sentence (right-to-left). These lines are commonly translated as:
+“In the beginning, God created the Heavens and the Earth. And the Earth was Tohu va-vohu and darkness was on the face of the deep…”</description>
     </item>
     
   </channel>
