@@ -179,8 +179,8 @@ $.getJSON('http://allorigins.me/get?url=http%3A//www.swift.psu.edu/operations/cu
         $('#uvotMode').attr("href", "http://www.swift.psu.edu/operations/mode_table.php?hexval="+arr[arr.length-2]);
         $('#xrtMode').text(arr[arr.length-3]);
         $('#xrtMode').attr("href", "http://www.swift.ac.uk/analysis/xrt/modes.php");
-        $('#RA').text(Number(arr[arr.length-4]).toFixed(6));
-        $('#DEC').text(Number(arr[arr.length-5]).toFixed(6));
+        $('#DEC').text(Number(arr[arr.length-4]).toFixed(6));
+        $('#RA').text(Number(arr[arr.length-5]).toFixed(6));
         $('#duration').text(arr[arr.length-7]);
         $('#end').text(arr[arr.length-9]+ " " +arr[arr.length-8]);
         $('#start').text(arr[arr.length-11]+ " " +arr[arr.length-10]);
