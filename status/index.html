@@ -153,13 +153,24 @@
 
 <article class="article" itemscope itemtype="http://schema.org/Article">
 <script>
+
+
+var options = {
+	"rejectUnauthorized": false,
+    "strictSSL": false,
+    
+    "url": 'http://api.allorigins.win/get?url=http%3A//www.swift.psu.edu/operations/currentTarget.php',
+    "method": "GET",
+    
+}
+
 function current(){  
-$.getJSON('http://allorigins.me/get?url=http%3A//www.swift.psu.edu/operations/currentTarget.php', function(data){
+$.getJSON(options, function(data){
+	$('#output').html(JSON.stringify(data.status.error.code));
 
     var ok = $(data.contents).text();
-    var array = ok.split(' ');
+   	var array = ok.split(' ');
     arr = array.join().split(/\s|,/).filter(Boolean);
-
     if(typeof arr[arr.length-1] =='undefined'){
         $('#SAA').text("Current observation data is not available. Check back later.");
         $('#currentobs').empty();
@@ -208,7 +219,8 @@ current();
 <div class='row'>
 <div class='home_page'>
 <div class='span12'>
-<p style="text-align: center">Currently Observing<sup>&dagger;</sup></p> 
+<p style="text-align: center">Currently Observing<sup>&dagger;</sup></p>
+<div id = 'output'></div> 
 <center><div id='SAA' style="color:#FF0000"></div></center>
 <div class='currentobs' id='currentobs'>
 <table class='currentobs'>
