@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aaron Tohuvavohu</title>
+    <link>http://tohuvavohu.github.io/</link>
+    <description>Recent content on Aaron Tohuvavohu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Aaron Tohuvavohu</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tohuvavohu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Selected Talks</title>
+      <link>http://tohuvavohu.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tohuvavohu.github.io/home/talks/</guid>
+      <description>2020
+August: Invited tak at the Sustainable Cyber Infrastructure for Multi-messenger Astrophysics August meeting, on The Future of Treasure Map .
+July: Talk at Fast Radio Bursts 2020 titled Enabling Extremely Low Latency X-ray and UV followup of FRBs.
+January 29: Talk at the Canadian Multi-messenger Astrophysics Workshop titled &#39;Trying to solve the `first few hours` physics gap for compact binary mergers&#39;.
+January: Talk at AAS #235 in Hawaii on Swift gamma-ray, x-ray, and UV follow-up to gravitational wave triggers in the 3rd LIGO/Virgo Observing Run</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://tohuvavohu.github.io/home/about/</link>
+      <pubDate>Sat, 02 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://tohuvavohu.github.io/home/about/</guid>
+      <description>Email: (PGP public key) tohuvavohu &amp;lt;at&amp;gt; astro &amp;lt;dot&amp;gt; utoronto &amp;lt;dot&amp;gt; ca  Physical address: 50 St. George St, Office 127 Toronto, ON M56 3H4  I am a graduate student in astrophysics at the University of Toronto, and an author for Astrobites. Previously I worked as an Observatory Duty Scientist for the NASA Swift satellite observatory based at Penn State. My current research focuses on multi-messenger astrophysics (with light, gravitational waves, and occasionally neutrinos), and fast or anomalous transients.</description>
+    </item>
+    
+    <item>
+      <title>Swift acrobatics in response to GW170817</title>
+      <link>http://tohuvavohu.github.io/post/followup/</link>
+      <pubDate>Tue, 12 Dec 2017 12:00:00 +0000</pubDate>
+      
+      <guid>http://tohuvavohu.github.io/post/followup/</guid>
+      <description>Below you will see a visualisation of the maneuvers that the Swift spacecraft performed in the course of its tiling observations in response to GW170817. This campaign was comprised of 744 individual pointings that covered 92% of the galaxy-convolved gravitational wave error region. Swift is the only spacecraft that can perform this type of fast-response tiling, and will remain so for the foreseeable future.
+The video shows a skymap. The large and small red circles are the sun and moon constraints on the sky, respectively.</description>
+    </item>
+    
+    <item>
+      <title>Enabling amateur astronomers to contribute to counterpart searches to gravitational wave events</title>
+      <link>http://tohuvavohu.github.io/post/counterparts-for-everyone/</link>
+      <pubDate>Sat, 21 Oct 2017 12:00:00 +0000</pubDate>
+      
+      <guid>http://tohuvavohu.github.io/post/counterparts-for-everyone/</guid>
+      <description>On August 17, 2017 the first object ever detected with both gravitational waves and light was found, now known as AT 2017gfo. The initial LIGO/Virgo and Fermi GBM alerts sent astronomers all over the world dashing to their telescopes to try and localize the electromagnetic counterpart in the relatively small (compared to past events) but still quite large localization region. The counterpart was independently found in the first night of searching by several different teams, though the Swope Supernova Survey were the first to report it.</description>
+    </item>
+    
+    <item>
+      <title>The Aliens and Presidents Puzzle</title>
+      <link>http://tohuvavohu.github.io/post/alien-puzzle/</link>
+      <pubDate>Thu, 01 Sep 2016 12:00:00 +0000</pubDate>
+      
+      <guid>http://tohuvavohu.github.io/post/alien-puzzle/</guid>
+      <description>This post is about a very tricky math puzzle, and really has very little to do with aliens or presidents. This puzzle made the rounds stumping people at Reed College in 2014, and was created by my friend Steve Silverman (who seems to have an unlimited supply of unique puzzles of his own design). All credit for cleverness and ingenuity goes to him. This post was written because there were several people who did not believe that this puzzle had a real, unique, solution or else that there was some wordplay involved rather than mathematics.</description>
+    </item>
+    
+    <item>
+      <title>What is Tohuvavohu?</title>
+      <link>http://tohuvavohu.github.io/post/tohuvavohu/</link>
+      <pubDate>Sun, 28 Aug 2016 12:00:00 +0000</pubDate>
+      
+      <guid>http://tohuvavohu.github.io/post/tohuvavohu/</guid>
+      <description>The first one-and-a-half lines of Genesis go as follows:
+…בראשית ברא אלהים את השמים ואת הארץ. והארץ היתה תהו ובהו וחשך על־פני תהום
+In the Hebrew text above, the phrase ‘Tohu va-vohu’ is in bold, the 3rd and 4th words of the second sentence (right-to-left). These lines are commonly translated as:
+“In the beginning, God created the Heavens and the Earth. And the Earth was Tohu va-vohu and darkness was on the face of the deep…”</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://tohuvavohu.github.io/status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://tohuvavohu.github.io/status/</guid>
+      <description>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments)}; gtag(&#39;js&#39;, new Date()); gtag(&#39;config&#39;, &#39;UA-107318167-1&#39;);   Swift Gamma-Ray-Burst Explorer Status | Aaron Tohuvavohu   /* Max width before this PARTICULAR table gets nasty This query will take effect for any screen smaller than 760px and also iPads specifically. */ @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) { .orbittable { width: 100% !important; } .googleMap { width: 100% !</description>
+    </item>
+    
+  </channel>
+</rss>

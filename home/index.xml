@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Aaron Tohuvavohu</title>
+    <link>http://tohuvavohu.github.io/home/</link>
+    <description>Recent content in Homes on Aaron Tohuvavohu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Aaron Tohuvavohu</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tohuvavohu.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Selected Talks</title>
+      <link>http://tohuvavohu.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tohuvavohu.github.io/home/talks/</guid>
+      <description>2020
+August: Invited tak at the Sustainable Cyber Infrastructure for Multi-messenger Astrophysics August meeting, on The Future of Treasure Map .
+July: Talk at Fast Radio Bursts 2020 titled Enabling Extremely Low Latency X-ray and UV followup of FRBs.
+January 29: Talk at the Canadian Multi-messenger Astrophysics Workshop titled &#39;Trying to solve the `first few hours` physics gap for compact binary mergers&#39;.
+January: Talk at AAS #235 in Hawaii on Swift gamma-ray, x-ray, and UV follow-up to gravitational wave triggers in the 3rd LIGO/Virgo Observing Run</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://tohuvavohu.github.io/home/about/</link>
+      <pubDate>Sat, 02 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://tohuvavohu.github.io/home/about/</guid>
+      <description>Email: (PGP public key) tohuvavohu &amp;lt;at&amp;gt; astro &amp;lt;dot&amp;gt; utoronto &amp;lt;dot&amp;gt; ca  Physical address: 50 St. George St, Office 127 Toronto, ON M56 3H4  I am a graduate student in astrophysics at the University of Toronto, and an author for Astrobites. Previously I worked as an Observatory Duty Scientist for the NASA Swift satellite observatory based at Penn State. My current research focuses on multi-messenger astrophysics (with light, gravitational waves, and occasionally neutrinos), and fast or anomalous transients.</description>
+    </item>
+    
+  </channel>
+</rss>
